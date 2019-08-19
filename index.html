@@ -1,0 +1,130 @@
+<!-- Hello, curious soul! Welcome to the source code for my website :)
+I decided to put together this website as a sort of portfolio/profile page where I can compile all my work. I build a lot of things
+(mostly software), and I thought that I should have somewhere to showcase all of it. Stay tuned!
+This site is developed, designed, and maintained by Kevin Cui. Last updated August 18, 2019 -->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Kevin J.Y. Cui</title>
+    <link rel='stylesheet' href='style.css' />
+    <link rel='icon' href='src/img/plane.JPG'>
+</head>
+<body id='body'>
+
+    <nav class='title fixedElement'>
+        
+        <div class='container'>
+                <a href='index.html'><img src='src/img/plane.JPG' class='button'></img></a>
+        </div>
+        <div class='container'>
+                <a><img src='src/img/hamburger-menu.png' class='mobile animated'></img></a>
+        </div>
+        <div class='container'>
+                <a href='#events'><img src='src/img/codlogo.png' class='navIcon smallIcon animated'></img></a>
+                <div class='overlay'>
+                        <div class='text'><b>Projects</b></div>
+                </div>
+        </div>
+        <div class='container'>
+                <a href='#resume'><img src='src/img/about.png' class='navIcon smallIcon animated'></img></a>
+                <div class='overlay'>
+                    <div class='text'><b>Resumé</b></div>
+                </div>
+            </div>
+        <div class='container'>
+                <a href='#about'><img src='src/img/abtlogo.png' class='navIcon smallIcon animated'></img></a>
+                <div class='overlay'>
+                    <div class='text'><b>About</b></div>
+                </div>
+            </div>
+        <script src="src/js/mobileMenu.js"></script>
+
+    </nav>
+
+    <div class='view'>
+        <div class='main'>
+            <div class='mainhead'>
+                <div class='descrip'>
+                    <h3 class='bigtitle'>Kevin Junyang Cui</h3>
+                </div>
+                <div class='landscape'></div>
+                <section id="events">
+                    <div class="lightback">
+                        <h2 class='indescrip'>Portfolio</h2>
+                        <iframe class="video" src="https://www.youtube.com/embed/AhngudeSrFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div id="event-dir">
+                            <script src='src/js/getProjects.js'></script>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            </section>
+            <section id='resume'>
+                <div class='darkback'>
+                    <h2 class='indescrip'>Resumé</h2>
+                    <div class='res-segment'>
+                        <h3 class='res-title'>Experience</h3>
+                        <h4 class='res-subtitle'>RBC Royal Bank of Canada</h4>
+                        <i><a>July 2019 - August 2019</a></i><br>
+                        <a>Innovation Developer summer intern at RBC. Front-end and back-end software development</a>
+                        <h4 class='res-subtitle'>Toronto Youth Network</h4>
+                        <i><a>June 2019 - </a></i><br>
+                        <a>Web Development</a>
+                        <h4 class='res-subtitle'>Triway Education</h4>
+                        <i><a>February 2019 - August 2019</a></i><br>
+                        <a>Providing guidance for developing vital mathematical skills. Teaching important concepts in the
+                            mathematics curriculum</a>
+                        <h4 class='res-subtitle'>The Knowledge Society (TKS)</h4>
+                        <i><a>October 2018 - June 2019</a></i><br>
+                        <a>Attended an organization for youth entrepreneurship and technological innovation. Developed simple applications for neurotechnological software and hardware.</a>
+                        <h4 class='res-subtitle'>DMOJ: Modern Online Judge</h4>
+                        <i><a>May 2019 - June 2019</a></i><br>
+                        <a>Problem setted for the Triway Cup 2019 Junior Computing Contest on DMOJ: Modern Online Judge</a>
+                    </div>
+                    <br>
+                    <div class='res-segment'>
+                        <h3 class='res-title'>Education</h3>
+                        <h4 class='res-subtitle'>Westmount Collegiate Institute</h4>
+                        <i><a>September 2016 - June 2020</a></i><br>
+                        <a>Computer Science Club, Science Club, Model UN, Grade 11 Academic Functions Award (2018-19), Grade 11 Academic Physics Award (2018-19)</a>
+                    </div>
+                    <br><br>
+                    <div class='res-segment centered'>
+                        <a id="file" target="_blank" href="src/Kevin Cui General Resume.docx" download="Kevin Cui General Resume" target="_blank" title="My Resume"><img class="smlogo" src="src/img/file-types/svg/005-file-4.svg" alt="smlogo"></a>
+                        <a id="file" target="_blank" href="src/Kevin Cui General Resume.pdf" download="Kevin Cui General Resume" target="_blank" title="My Resume"><img class="smlogo" src="src/img/file-types/svg/008-file-7.svg" alt="smlogo"></a>	
+                    </div>
+                    <br>
+                </div>
+            </section>
+            <section id='about'>
+                <div class="lightback">
+                    <h2 class='indescrip'>Software Development Student</h2>
+                    <img class='side' src='src/img/38621453.jpg'></img>
+                    <div class='subdescrip'>Hello, World!</div>
+                    <div class='subdescrip'>I am Kevin, a software developer. I am especially knowledgeable in Java and Python, and my work primarily consists of application and data-intensive back-end development, although I am aiming towards being stronger with full-stack development as well. </div>
+                    <div class='subdescrip'>Beyond Java and Python, I also have experience working with other languages (JavaScript, HTML, CSS, TypeScript, Arduino, C/C++, SQL), web application frameworks (Angular, Spring Boot), APIs (Jive, Discord, Emotiv), libraries (Matplotlib, Pygame), game engines (Unity), Git, JSON, and LaTeX. </div>        
+                    <div class='subdescrip'>I am currently working as an Innovation Developer at RBC Royal Bank. I am enrolled in secondary school.</div>
+                    <br><br>
+                </div>
+            </section>
+        </div>
+        <footer class='foot'>
+            <a class='legal'>© 2019 Kevin Junyang Cui | Toronto, ON Canada</a>
+            <br><br>
+            <a class='legal email' href='mailto:info@kevincui.dev' target='_blank'>info@kevincui.dev</a>
+            <br><br>
+            <a href='https://github.com/kevinjycui' target='_blank'><img src='src/img/media-icons/github.svg' class='media-icon'></img></a>
+            <a href='https://www.linkedin.com/in/kevin-jy-cui/' target='_blank'><img src='src/img/media-icons/linkedin.svg' class='media-icon'></img></a>
+            <a href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon'></img></a>
+            <a href='https://twitter.com/kevinjycui' target='_blank'><img src='src/img/media-icons/twitter.svg' class='media-icon'></img></a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+

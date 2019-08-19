@@ -1,0 +1,827 @@
+html, body {
+  padding: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-display: optional;
+  color: #050E1F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+html {
+  background: rgb(35, 80, 109);
+  /* background-image: url('src/img/background-blue.png');
+  background-size: cover;
+  background-repeat: repeat-y; */
+}
+
+.title {
+float: left;
+text-align: center;
+background-color: rgb(218, 245, 255);
+max-width: 5%;
+height: 100%;
+padding: 2% 2% 100% 2%;
+object-fit: contain;
+margin: 0px;
+}
+
+.view {
+float: right;
+width: 100%;
+height: 100%;
+max-height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.fixedElement {
+position: fixed;
+top: 0;
+left: 0;
+width: 5%;
+box-shadow: 0px 10px -10px #27272c;
+}
+
+.button {
+margin: 0;
+margin-bottom: 50%;
+max-width: 90%;
+border-radius: 50%;
+}
+
+.main {
+margin-left: 15%;
+margin-right: 15%;
+border-radius: 30px;
+animation-name: rise;
+animation-duration: 0.9s;
+animation-play-state: running;
+animation-iteration-count: 1;
+margin-top: 5%;
+}
+
+@keyframes rise {
+from {margin-top: 100%;}
+to {margin-top: 5%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes rise {
+from {margin-top: 100%;}
+to {margin-top: 5%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes rise {
+from {margin-top: 100%;}
+to {margin-top: 5%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rise {
+from {margin-top: 100%;}
+to {margin-top: 5%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes rise {
+from {margin-top: 100%;}
+to {margin-top: 5%;}
+}
+
+.descrip {
+font-size: 3.2rem;
+/* float: left; */
+margin-top: 0;
+margin-bottom: 0;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+padding: 10% 10% 5% 10%;
+text-align: center;
+background-color: rgb(218, 245, 255);
+word-wrap: break-word;
+}
+
+.landscape {
+  background-image: url('src/img/plane_scene.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50%;
+  padding: 35%;
+  margin: 0;
+}
+
+.bigtitle {
+margin: 0%;
+}
+
+.indescrip {
+text-align: center;
+font-size: 2.2rem;
+padding: 0% 25% 0% 25%; 
+word-wrap: break-word;
+}
+
+.subdescrip {
+font-size: 1.2rem;
+padding: 0% 15% 5% 15%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.smallIcon {
+animation-name: deselect;
+animation-duration: 0.2s;
+animation-play-state: running;
+animation-iteration-count: 1;
+width: 60%;
+height: auto;
+margin-left: 0%;
+margin-top: 0%;
+margin-top: 50px;
+}
+
+.mainhead {
+background-color: #899BB3;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+.text {
+font-size: 0.7em;
+text-align: center;
+}
+
+.overlay {
+opacity: 0;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+.container:hover .smallIcon {
+animation-name: select;
+animation-duration: 0.4s;
+animation-play-state: running;
+animation-iteration-count: 1;
+width: 70%;
+}
+
+@keyframes select {
+from {width: 60%;}
+to {width: 70%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes select {
+from {width: 60%;}
+to {width: 70%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes select {
+from {width: 60%;}
+to {width: 70%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes select {
+from {width: 60%;}
+to {width: 70%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes select {
+from {width: 60%;}
+to {width: 70%;}
+}
+
+@keyframes deselect {
+from {width: 70%;}
+to {width: 60%;}  
+}
+
+/* Firefox < 16 */
+@-moz-keyframes deselect {
+from {width: 70%;}
+to {width: 60%;} 
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes deselect {
+from {width: 70%;}
+to {width: 60%;} 
+}
+
+/* Internet Explorer */
+@-ms-keyframes deselect {
+from {width: 70%;}
+to {width: 60%;} 
+}
+
+/* Opera < 12.1 */
+@-o-keyframes deselect {
+from {width: 70%;}
+to {width: 60%;} 
+}
+
+/* .container:hover .button {
+animation-name: mainselect;
+animation-duration: 0.7s;
+animation-play-state: running;
+animation-iteration-count: 1;
+width: 14%;
+}
+
+@keyframes mainselect {
+from {width: 12%;}
+to {width: 14%;}
+} */
+
+.banner {
+width: 100%;
+height: 30%;
+object-fit: contain;
+}
+
+.slideshow {
+margin-top: 2%;
+margin-bottom: 2%;
+opacity: 1;
+}
+
+.side {
+float: left;
+max-width: 15%;
+width: auto;
+margin: 4%;
+margin-left: 15%;
+margin-top: 0%;
+}
+
+#about {
+margin: 0px;
+padding: 0px;
+}
+
+.options {
+text-align: center;
+}
+
+.circle {
+width: 7%;
+margin-top: 2%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.circle:hover {
+cursor: pointer;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* .circle:hover {
+animation-name: btnSelect;
+animation-duration: 0.7s;
+animation-play-state: running;
+animation-iteration-count: 1;
+width: 8%;
+}
+
+@keyframes btnSelect {
+from {width: 7%;}
+to {width: 8%;}
+} */
+
+.complete-gallery {
+text-align: center;
+}
+
+.bubble {
+width: 30%;
+margin: 2%;
+}
+
+.bubble:hover {
+animation-name: slightFade;
+animation-duration: 0.4s;
+opacity: 0.6;
+cursor: pointer;
+}
+
+@keyframes slightFade {
+from {opacity: 1;}
+to {opacity: 0.6;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slightFade {
+from {opacity: 1;}
+to {opacity: 0.6;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slightFade {
+from {opacity: 1;}
+to {opacity: 0.6;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes slightFade {
+from {opacity: 1;}
+to {opacity: 0.6;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slightFade {
+from {opacity: 1;}
+to {opacity: 0.6;}
+}
+
+.profModule {
+background-color: rgb(92, 154, 211);
+padding: 2%;
+width: 5%;
+min-height: 80%;
+height: auto;
+border-radius: 5px;
+margin: 2%;
+display: block;
+text-align: center;
+border-style: solid;
+border-width: 7%;
+border-color: rgb(92, 154, 211);
+}
+
+.profModule:hover {
+  border-color: #050E1F;
+  width: 90%;
+}
+
+.res-segment {
+  padding: 0 10% 0 10%;
+}
+
+.res-title {
+  margin-bottom: 2%;
+}
+
+.res-subtitle {
+  display: block;
+  margin: 5% 1% 0 0;
+  font-weight: 14px;
+}
+
+.exp-icon {
+  max-width: 30%;
+  height: auto;
+  float: left;
+  border-radius: 50%;
+  margin-right: 1%;
+  /* border-style: solid;
+  border-width: 2%; */
+}
+
+#team {
+text-align: center;
+}
+
+.video {
+display: inline-block;
+width: 90%;
+min-height: 500px;
+margin: 5%;
+}
+
+#events {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.foot {
+background-color: #223D52;
+color: #FAFDF6;
+text-align: center;
+margin-top: 5%;
+padding-top: 2%;
+}
+
+
+.lightback {
+background-color: #FAFDF6;
+padding: 3%;
+}
+
+.darkback {
+background-color: rgb(135, 156, 175);
+padding: 3%;
+}
+
+.announce {
+background-color: #223D52;
+font-size: 0.4em;
+color: #e3e3e4; 
+padding: 0% 2% 0% 2%;
+max-width: 30%;
+min-height: 15%;
+border-radius: 5px;
+margin-top: 10%;
+border-style: solid;
+border-width: 7%;
+border-color: #050E1F;
+}
+
+.announce:hover {
+animation-name: smoothColor;
+animation-duration: 0.6s;
+background-color: #5d6f96;
+}
+
+@keyframes smoothColor {
+from {background-color: #223D52;}
+to {background-color: #5d6f96;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes smoothColor {
+from {background-color: #223D52;}
+to {background-color: #5d6f96;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes smoothColor {
+from {background-color: #223D52;}
+to {background-color: #5d6f96;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes smoothColor {
+from {background-color: #223D52;}
+to {background-color: #5d6f96;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes smoothColor {
+from {background-color: #223D52;}
+to {background-color: #5d6f96;}
+}
+
+.eventModule {
+margin: 3%;
+background-color: #e3e3e4; 
+padding: 2%;
+width: 130px;
+height: 130px;
+border-radius: 50%; 
+display: inline-block;
+vertical-align: middle;
+border-style: solid;
+border-radius: 7px;
+border-color: #e3e3e4;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.event-name {
+opacity: 0;
+color: #e3e3e4;
+}
+
+.eventModule:hover .event-name {
+animation-name: fadeIn;
+animation-duration: 0.4s;
+opacity: 1;
+background-color: #182e3f;
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+.event-descrip {
+display: none;
+}
+
+.legal {
+display: inline;
+text-align: center;
+}
+
+.media-icon {
+display: inline-block;
+vertical-align: middle;
+max-width: 3%;
+margin: 1%;
+border-style: solid;
+border-color: #223D52;
+border-radius: 50%;
+}
+
+.media-icon:hover {  
+border-color: #bebebe;
+}
+
+.legal {
+color: #e3e3e4;;
+margin: 2%;
+}
+
+.email:hover {
+color: #bebebe;
+}
+
+.mobile {
+width: 100%;
+height: auto;
+margin: auto;
+margin-top: 55%;
+cursor: pointer;
+}
+
+
+.smlogo {
+  height: 6%;
+  width: 6%;
+  padding: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+
+  .smlogo {
+		height: 12%;
+		width: 12%;
+	}
+
+  .animated {
+  /*CSS transitions*/
+  -o-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -ms-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  /*CSS transforms*/
+  -o-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  /*CSS animations*/
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  }
+
+  .announce {
+  font-size: 65%;
+  max-width: 70%;
+  max-height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .descrip {
+  font-size: 165%;
+  /* float: left; */
+  }
+
+  .indescrip {
+    font-size: 1.2rem;
+  }
+
+  .subdescrip {
+  font-size: 0.2rem;
+  }
+
+  h2 {
+  margin: auto;
+  margin-left: 1%;
+  }
+
+  .video {
+  display: none;
+  }
+
+  .profModule {
+  background-color: rgb(92, 154, 211);
+  padding: 2%;
+  border-radius: 5px;
+  width: 5%;
+  margin: 2%;
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-width: 7%;
+  border-color: rgb(92, 154, 211);
+  }
+
+  .media-icon {
+  max-width: 10%;
+  margin: 5%;
+  }
+
+  .subdescrip {
+  font-size: 95%;
+  padding: 0% 15% 5% 15%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  }
+
+  .side {
+  float: none;
+  display: block;
+  max-width: 65%;
+  margin: 4%;
+  padding: 0%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+  padding: auto;
+  }
+
+  .foot {
+  float: right;
+  width: 90%;
+  }
+
+  .navIcon {
+  display: none;
+  }
+
+  .overlay {
+  display: none;
+  }
+
+  .smallIcon {
+  width: 20%;
+  margin-top: 15%;
+  }
+
+  .button {
+  margin-bottom: 5%;
+  }
+
+  .overlay {
+  display: none;
+  }
+
+  @keyframes slideIn {
+  from { 
+    max-width: 5%;
+    width: 5%;
+  }
+  to   {
+    max-width: 50%;
+    width: 50%;
+  }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes slideIn {
+  from { 
+    max-width: 5%;
+    width: 5%;
+  }
+  to   {
+    max-width: 50%;
+    width: 50%;
+  }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes slideIn {
+  from { 
+    max-width: 5%;
+    width: 5%;
+  }
+  to   {
+    max-width: 50%;
+    width: 50%;
+  }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes slideIn {
+  from { 
+    max-width: 5%;
+    width: 5%;
+  }
+  to   {
+    max-width: 50%;
+    width: 50%;
+  }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes slideIn {
+  from { 
+    max-width: 5%;
+    width: 5%;
+  }
+  to   {
+    max-width: 50%;
+    width: 50%;
+  }
+  }
+
+  @keyframes slideOut {
+  from { 
+    max-width: 50%;
+    width: 50%;
+  }
+  to   {
+    max-width: 5%;
+    width: 5%;
+  }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes slideOut {
+  from { 
+    max-width: 50%;
+    width: 50%;
+  }
+  to   {
+    max-width: 5%;
+    width: 5%;
+  }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes slideOut {
+  from { 
+    max-width: 50%;
+    width: 50%;
+  }
+  to   {
+    max-width: 5%;
+    width: 5%;
+  }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes slideOut {
+  from { 
+    max-width: 50%;
+    width: 50%;
+  }
+  to   {
+    max-width: 5%;
+    width: 5%;
+  }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes slideOut {
+  from { 
+    max-width: 50%;
+    width: 50%;
+  }
+  to   {
+    max-width: 5%;
+    width: 5%;
+  }
+}
+
+}
