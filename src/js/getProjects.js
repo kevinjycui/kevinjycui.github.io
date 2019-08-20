@@ -1,4 +1,4 @@
-const events = [
+const portfolio = [
     {'name':'ENFERI', 'desc':'', 'source':'src/img/work-img.JPG', 'repo':'https://github.com/kevinjycui/enferi'},
     {'name':'Evolution Simulator', 'desc':'', 'source':'src/img/guppy.PNG', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},
     {'name':'BFS Pacman', 'desc':'', 'source':'src/img/bfs_logo.PNG', 'repo':'https://github.com/kevinjycui/pac-graph'},
@@ -7,7 +7,7 @@ const events = [
     {'name':'Human Anatomy Model w/ Unity', 'desc':'', 'source':'src/img/human.jpg', 'repo':'https://github.com/kevinjycui/human-anatomy-model'},
 ]
 
-for (e of events) {
+for (e of portfolio) {
     let link = document.createElement("a");
     link.href = e.repo;
     link.target = '_blank';
