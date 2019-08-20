@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 const portfolio = [
     {'name':'ENFERI', 'desc':'', 'source':'src/img/work-img.JPG', 'repo':'https://github.com/kevinjycui/enferi'},
     {'name':'Evolution Simulator', 'desc':'', 'source':'src/img/guppy.PNG', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},
     {'name':'BFS Pacman', 'desc':'', 'source':'src/img/bfs_logo.PNG', 'repo':'https://github.com/kevinjycui/pac-graph'},
-=======
-const events = [
-    {'name':'ENFERI', 'desc':'', 'source':'src/img/work-img.jpg', 'repo':'https://github.com/kevinjycui/enferi'},
-    {'name':'Evolution Simulator', 'desc':'', 'source':'src/img/guppy.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},
-    {'name':'BFS Pacman', 'desc':'', 'source':'src/img/bfs_logo.png', 'repo':'https://github.com/kevinjycui/pac-graph'},
->>>>>>> 6270828d4e223ecbeb770ae2366ff2537af46d71
     {'name':'Dijkstra Transportation Network', 'desc':'', 'source':'src/img/map_visual.jpg', 'repo':'https://github.com/kevinjycui/Dijkstra-Transportation-Network'},
     {'name':'Geopoli', 'desc':'', 'source':'src/img/geopoli.PNG', 'repo':'https://github.com/kevinjycui/Geopoli'},
     {'name':'Human Anatomy Model w/ Unity', 'desc':'', 'source':'src/img/human.jpg', 'repo':'https://github.com/kevinjycui/human-anatomy-model'},
