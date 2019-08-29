@@ -45,7 +45,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 5%;
-box-shadow: 0px 10px -10px #27272c;
+box-shadow: 0px 10px 20px #27272c;
 }
 
 .button {
@@ -499,6 +499,10 @@ opacity: 0;
 color: #e3e3e4;
 }
 
+.eventModule:hover {
+  box-shadow: 0px 0px 10px #000000;
+}
+
 .eventModule:hover .event-name {
 animation-name: fadeIn;
 animation-duration: 0.4s;
@@ -574,7 +578,6 @@ margin: auto;
 margin-top: 55%;
 cursor: pointer;
 }
-
 
 .smlogo {
   height: 6%;
