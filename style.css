@@ -5,7 +5,7 @@ html, body {
   margin-bottom: 0px;
   height: 100%;
   width: 100%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Helvetica', monospace;
   font-weight: 400;
   font-display: optional;
   color: #050E1F;
@@ -125,6 +125,7 @@ margin: 0%;
 text-align: center;
 font-size: 2.2rem;
 padding: 0% 25% 0% 25%; 
+margin-bottom: 0;
 word-wrap: break-word;
 }
 
@@ -259,7 +260,7 @@ opacity: 1;
 
 .side {
 float: left;
-max-width: 15%;
+max-width: 20%;
 width: auto;
 margin: 4%;
 margin-left: 15%;
