@@ -1,6 +1,6 @@
 const portfolio = [
-    {'name':'PennApps XX Hand Spoken OCR', 'desc':'', 'source':'src/img/handspoken.jpg', 'repo':'https://github.com/kevinjycui/hand-spoken-backend'},
-    {'name':'RBC VoiceHacks Innovoicer w/ Rasa to Mycroft', 'desc':'', 'source':'src/img/mycroft.JPG', 'repo':'https://github.com/kevinjycui/innovoicer'},
+    {'name':'PennApps XX Hand Spoken OCR', 'desc':'', 'source':'src/img/handspoken.JPG', 'repo':'https://github.com/kevinjycui/hand-spoken-backend'},
+    {'name':'RBC VoiceHacks Innovoicer w/ Rasa to Mycroft', 'desc':'', 'source':'src/img/mycroft.jpg', 'repo':'https://github.com/kevinjycui/innovoicer'},
     {'name':'ENFERI w/ Emotiv and Arduino', 'desc':'', 'source':'src/img/work-img.jpg', 'repo':'https://github.com/kevinjycui/enferi'},
     {'name':'Trinidad Guppy Evolution Simulator', 'desc':'', 'source':'src/img/guppy.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},
     {'name':'BFS Pacman', 'desc':'', 'source':'src/img/bfs_logo.png', 'repo':'https://github.com/kevinjycui/pac-graph'},
