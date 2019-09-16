@@ -1,11 +1,9 @@
 const portfolio = [
+    {'name':'Hack the North 2019 MPb3ats', 'desc':'', 'source':'src/img/medium.jpg', 'repo':'https://github.com/kevinjycui/MPb3ats'},
     {'name':'PennApps XX Hand Spoken OCR', 'desc':'', 'source':'src/img/handspoken.JPG', 'repo':'https://github.com/kevinjycui/hand-spoken-backend'},
     {'name':'RBC VoiceHacks Innovoicer w/ Rasa to Mycroft', 'desc':'', 'source':'src/img/mycroft.jpg', 'repo':'https://github.com/kevinjycui/innovoicer'},
     {'name':'ENFERI w/ Emotiv and Arduino', 'desc':'', 'source':'src/img/work-img.jpg', 'repo':'https://github.com/kevinjycui/enferi'},
-    {'name':'Trinidad Guppy Evolution Simulator', 'desc':'', 'source':'src/img/guppy.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},
-    {'name':'BFS Pacman', 'desc':'', 'source':'src/img/bfs_logo.png', 'repo':'https://github.com/kevinjycui/pac-graph'},
     {'name':'Dijkstra Transportation Network', 'desc':'', 'source':'src/img/map_visual.jpg', 'repo':'https://github.com/kevinjycui/Dijkstra-Transportation-Network'},
-    {'name':'Geopoli Discord Bot', 'desc':'', 'source':'src/img/geopoli.PNG', 'repo':'https://github.com/kevinjycui/Geopoli'},
     {'name':'Human Anatomy Model w/ Unity', 'desc':'', 'source':'src/img/human.jpg', 'repo':'https://github.com/kevinjycui/human-anatomy-model'},
 ]
 
