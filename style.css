@@ -355,6 +355,15 @@ from {opacity: 1;}
 to {opacity: 0.6;}
 }
 
+.date {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0% 0% 5% 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
 .profModule {
 background-color: #A9A9A9;
 padding: 2%;
