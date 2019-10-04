@@ -5,16 +5,23 @@ html, body {
   margin-bottom: 0px;
   height: 100%;
   width: 100%;
-  font-family: 'Helvetica', monospace;
+  font-family: 'LMSansQuot8-Regular', monospace;
   font-weight: 400;
   font-display: optional;
   color: #050E1F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: "LMSansQuot8-Regular";
+  src: url("src/lm/lmsansquot8-regular.otf");
+  src: url("src/lm/lmsansquot8-regular.otf") format("otf");
+}
+
 html {
-  background: rgb(35, 80, 109);
+  background: #444444;
   /* background-image: url('src/img/background-blue.png');
   background-size: cover;
   background-repeat: repeat-y; */
@@ -23,7 +30,7 @@ html {
 .title {
 float: left;
 text-align: center;
-background-color: rgb(218, 245, 255);
+background-color: #F7F8FA;
 max-width: 5%;
 height: 100%;
 padding: 2% 2% 100% 2%;
@@ -104,7 +111,7 @@ border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 padding: 10% 10% 5% 10%;
 text-align: center;
-background-color: rgb(218, 245, 255);
+background-color: #F7F8FA;
 }
 
 .landscape {
@@ -147,7 +154,7 @@ margin-top: 50px;
 }
 
 .mainhead {
-background-color: #899BB3;
+background-color: #F7F8FA;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 }
@@ -349,7 +356,7 @@ to {opacity: 0.6;}
 }
 
 .profModule {
-background-color: rgb(92, 154, 211);
+background-color: #A9A9A9;
 padding: 2%;
 width: 5%;
 min-height: 80%;
@@ -360,7 +367,7 @@ display: block;
 text-align: center;
 border-style: solid;
 border-width: 7%;
-border-color: rgb(92, 154, 211);
+border-color: #A9A9A9;
 }
 
 .profModule:hover {
@@ -410,7 +417,7 @@ margin-right: auto;
 }
 
 .foot {
-background-color: #223D52;
+background-color: #202020;
 color: #FAFDF6;
 text-align: center;
 margin-top: 5%;
@@ -419,12 +426,12 @@ padding-top: 2%;
 
 
 .lightback {
-background-color: #FAFDF6;
+background-color: #F7F8FA;
 padding: 3%;
 }
 
 .darkback {
-background-color: rgb(135, 156, 175);
+background-color: #eeeeee;
 padding: 3%;
 }
 
@@ -553,7 +560,7 @@ vertical-align: middle;
 max-width: 3%;
 margin: 1%;
 border-style: solid;
-border-color: #223D52;
+border-color: #202020;
 border-radius: 50%;
 }
 
@@ -645,7 +652,7 @@ cursor: pointer;
   }
 
   .profModule {
-  background-color: rgb(92, 154, 211);
+  background-color: #A9A9A9;
   padding: 2%;
   border-radius: 5px;
   width: 5%;
@@ -654,7 +661,7 @@ cursor: pointer;
   text-align: center;
   border-style: solid;
   border-width: 7%;
-  border-color: rgb(92, 154, 211);
+  border-color: #A9A9A9;
   }
 
   .media-icon {
