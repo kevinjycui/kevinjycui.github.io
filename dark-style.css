@@ -70,7 +70,7 @@ html, body {
   animation-play-state: running;
   animation-iteration-count: 1;
   margin-top: 5%;
-  background-color: #050E1F;
+  background-color: rgb(26, 37, 53);
   }
   
   @keyframes rise {
@@ -458,7 +458,7 @@ html, body {
   
   
   .lightback {
-  background-color: #050E1F;
+  background-color: rgb(26, 37, 53);
   padding: 3%;
   }
   
