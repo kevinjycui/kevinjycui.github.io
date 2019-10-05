@@ -243,11 +243,12 @@ html, body {
   to {width: 60%;} 
   }
 
-  .bigtable {
+  table {
     margin: auto;
-    width: 80%;
+    width: 70%;
     border: 1px solid #F7F8FA;
     padding: 0;
+    color: #F7F8FA;
   }
 
   th, td {
@@ -593,6 +594,11 @@ html, body {
   border-style: solid;
   border-color: #202020;
   border-radius: 50%;
+  }
+
+  .discord {
+    max-width: 100%;
+    min-height: 500px;
   }
   
   .media-icon:hover {  
