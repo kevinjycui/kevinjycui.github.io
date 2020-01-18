@@ -35,6 +35,8 @@ html, body {
   padding: 2% 2% 100% 2%;
   object-fit: contain;
   margin: 0px;
+  z-index: 2;
+  position: relative;
   }
   
   .view {
@@ -530,6 +532,8 @@ html, body {
   border-color: #e3e3e4;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
+  position:relative;
   }
   
   .event-name {
