@@ -1,243 +1,274 @@
-<!-- Hello, curious soul! Welcome to the source code for my website :)
-I decided to put together this website as a sort of portfolio/profile page where I can compile all my work. I build a lot of things
-(mostly software), and I thought that I should have somewhere to showcase all of it. Stay tuned!
-This site is developed, designed, and maintained by Kevin Cui. Last updated August 30, 2019 -->
-
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Geopoli</title>
-    <link rel='stylesheet' href='dark-style.css' />
-    <link rel='icon' href='src/img/geopoli-icon.png'>
-</head>
-<body id='body'>
-
-    <nav class='title fixedElement'>
-        
-        <div class='container'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Geopoli</title>
+      <link rel='stylesheet' href='dark-style.css' />
+      <link rel='icon' href='src/img/geopoli-icon.png'>
+   </head>
+   <body id='body'>
+      <nav class='title fixedElement'>
+         <div class='container'>
             <a href='geopoli.html'><img src='src/img/geopoli.PNG' class='button'></img></a>
-        </div>
-        <div class='container'>
+         </div>
+         <div class='container'>
             <a><img src='src/img/hamburger-menu.png' class='mobile animated'></img></a>
-        </div>
-        <div class='container'>
+         </div>
+         <div class='container'>
             <a href='#commands'><img src='src/img/command.png' class='navIcon smallIcon animated'></img></a>
             <div class='overlay'>
-                    <div class='text'><b>Commands</b></div>
+               <div class='text'><b>Commands</b></div>
             </div>
-        </div>
-        <div class='container'>
+         </div>
+         <div class='container'>
             <a href='#wiki'><img src='src/img/wiki.png' class='navIcon smallIcon animated'></img></a>
             <div class='overlay'>
-                    <div class='text'><b>Wiki</b></div>
+               <div class='text'><b>Wiki</b></div>
             </div>
-        </div>
-        <div class='container'>
+         </div>
+         <div class='container'>
             <a href='#development'><img src='src/img/codlogo.png' class='navIcon smallIcon animated'></img></a>
             <div class='overlay'>
-                    <div class='text'><b>Development</b></div>
+               <div class='text'><b>Development</b></div>
             </div>
-        </div>
-        <div class='container'>
-                <a href='#resources'><img src='src/img/link.png' class='navIcon smallIcon animated'></img></a>
-                <div class='overlay'>
-                        <div class='text'><b>Resources</b></div>
-                </div>
+         </div>
+         <div class='container'>
+            <a href='#resources'><img src='src/img/link.png' class='navIcon smallIcon animated'></img></a>
+            <div class='overlay'>
+               <div class='text'><b>Resources</b></div>
             </div>
-        <script src="src/js/mobileMenu.js"></script>
-    </nav>
-
-    <div class='view'>
-        <div class='main'>
+         </div>
+         <script src="src/js/mobileMenu.js"></script>
+      </nav>
+      <div class='view'>
+         <div class='main'>
             <div class='mainhead'>
-                <div class='descrip'>
-                    <h3 class='bigtitle'>Geopoli</h3><br>
-                    <div class='subdescrip'>An investment simulator bot based off real-time exchange rate data. Exchange currencies to increase your net worth... or lose it all</div>
-                    <a href="https://top.gg/bot/600823440802316288" >
-                        <img src="https://top.gg/api/widget/status/600823440802316288.svg" alt="Geopoli" />
-                    </a>
-                </div>
-                <a href='https://discordapp.com/api/oauth2/authorize?client_id=600823440802316288&scope=bot&permissions=0' target='_blank'><img src='src/img/geopoli-banner.png' class='landscape'></img></a>
-                <br><br><br>
-                <div class='subdescrip'>Exchange 15 real currencies, view your financial portfolio, and compete against the other investors in your server</div>
-                <div class='subdescrip'>View and use real-time economic data</div>
-                <div class='subdescrip'>Join, leave, and establish nations alongside 17 real countries [BETA]</div>
+               <div class='descrip'>
+                  <h3 class='bigtitle'>Geopoli</h3>
+                  <br>
+                  <div class='subdescrip'>An investment simulator bot based off real-time exchange rate data. Exchange currencies to increase your net worth... or lose it all</div>
+                  <a href="https://top.gg/bot/600823440802316288" >
+                  <img src="https://top.gg/api/widget/status/600823440802316288.svg" alt="Geopoli" />
+                  </a>
+               </div>
+               <a href='https://discordapp.com/api/oauth2/authorize?client_id=600823440802316288&scope=bot&permissions=0' target='_blank'><img src='src/img/geopoli-banner.png' class='landscape'></img></a>
+               <br><br><br>
+               <div class='subdescrip'>Exchange 15 real currencies, view your financial portfolio, and compete against the other investors in your server</div>
+               <div class='subdescrip'>View and use real-time economic data</div>
+               <div class='subdescrip'>Join, leave, and establish nations alongside 17 real countries [BETA]</div>
             </div>
             </section>
             <section id='commands' class='lightback'>
-                <h2 class='indescrip'>Commands</h2>
-                <br>
-                <div class='subdescrip centered'><a>prefix: .</a></div>                
-                <div class='subdescrip'><b class="general-command">.help</b>: Gets a full list of command instructions</div>
-                <div class='subdescrip'><b class="general-command">.dawn</b>: Begins the world</div>
-                <div class='subdescrip'><b class="financial-command">.bank &lt;nation-name&gt;</b>: Views the financial information of a nation</div>
-                <div class='subdescrip'><b class="financial-command">.economy</b>: Views historical financial information of the current world stage</div>
-                <div class='subdescrip'><b class="financial-command">.register</b>: Opens a financial account</div>
-                <div class='subdescrip'><b class="financial-command">.portfolio</b>: Views personal financial information</div>
-                <div class='subdescrip'><b class="financial-command">.calc &lt;desposited-currency&gt; &lt;withdrawn-currency&gt; &lt;amount-withdrawn&gt;</b>: Calculates exchange</div>                
-                <div class='subdescrip'><b class="financial-command">.buy &lt;desposited-currency&gt; &lt;withdrawn-currency&gt; &lt;amount-withdrawn&gt;</b>: Exchanges currency</div>
-                <div class='subdescrip'><b class="leader-command">.establish &lt;nation-name&gt;</b>: Establishes a new nation</div>
-                <div class='subdescrip'><b class="political-command">.join &lt;nation-name&gt;</b>: Joins an existing nation</div>
-                <div class='subdescrip'><b class="political-command">.leave &lt;nation-name&gt;</b>: Leaves current nation</div>
-                <div class='subdescrip'><b class="political-command">.world</b>: Views the current world stage</div>
-                <div class='subdescrip'><b class="political-command">.passport</b>: Views your passport</div>
-                <div class='subdescrip'><b class="political-command">.profile &lt;nation-name&gt;</b>: Displays the profile of a nation</div>
-                <div class='subdescrip'><b class="political-command">.citizens &lt;nation-name&gt;</b>: Lists the citizens of a nation in chronological order</div>
-                <div class='subdescrip'><b class="political-command">.cities &lt;nation-name&gt;</b>: Lists the cities of a nation in chronological order</div>
-                <div class='subdescrip'><b class="leader-command">.set description &lt;nation-name&gt; &lt;description&gt;</b>: Change nation description</div>
-                <div class='subdescrip'><b class="leader-command">.set iso &lt;nation-name&gt; &lt;iso&gt;</b>: Change nation ISO code</div>
-                <div class='subdescrip'><b class="leader-command">.set capital &lt;nation-name&gt; &lt;city&gt;</b>: Change nation capital city</div>
-                <div class='subdescrip'><b class="leader-command">.set bank &lt;nation-name&gt; &lt;bank-name&gt;</b>: Change nation central bank</div>
-                <div class='subdescrip'><b class="leader-command">.set city &lt;nation-name&gt; &lt;city&gt;</b>: Adds a city to your country</div>
+               <h2 class='indescrip'>Commands</h2>
+               <br>
+               <div class='subdescrip centered'><a>prefix: .</a></div>
+               <div class='subdescrip'><b class="general-command">.help</b>: Gets a full list of command instructions</div>
+               <div class='subdescrip'><b class="general-command">.dawn</b>: Begins the world</div>
+               <div class='subdescrip'><b class="financial-command">.bank &lt;nation-name&gt;</b>: Views the financial information of a nation</div>
+               <div class='subdescrip'><b class="financial-command">.economy</b>: Views historical financial information of the current world stage</div>
+               <div class='subdescrip'><b class="financial-command">.register</b>: Opens a financial account</div>
+               <div class='subdescrip'><b class="financial-command">.portfolio</b>: Views personal financial information</div>
+               <div class='subdescrip'><b class="financial-command">.calc &lt;desposited-currency&gt; &lt;withdrawn-currency&gt; &lt;amount-withdrawn&gt;</b>: Calculates exchange</div>
+               <div class='subdescrip'><b class="financial-command">.buy &lt;desposited-currency&gt; &lt;withdrawn-currency&gt; &lt;amount-withdrawn&gt;</b>: Exchanges currency</div>
+               <div class='subdescrip'><b class="leader-command">.establish &lt;nation-name&gt;</b>: Establishes a new nation</div>
+               <div class='subdescrip'><b class="political-command">.join &lt;nation-name&gt;</b>: Joins an existing nation</div>
+               <div class='subdescrip'><b class="political-command">.leave &lt;nation-name&gt;</b>: Leaves current nation</div>
+               <div class='subdescrip'><b class="political-command">.world</b>: Views the current world stage</div>
+               <div class='subdescrip'><b class="political-command">.passport</b>: Views your passport</div>
+               <div class='subdescrip'><b class="political-command">.profile &lt;nation-name&gt;</b>: Displays the profile of a nation</div>
+               <div class='subdescrip'><b class="political-command">.citizens &lt;nation-name&gt;</b>: Lists the citizens of a nation in chronological order</div>
+               <div class='subdescrip'><b class="political-command">.cities &lt;nation-name&gt;</b>: Lists the cities of a nation in chronological order</div>
+               <div class='subdescrip'><b class="leader-command">.set description &lt;nation-name&gt; &lt;description&gt;</b>: Change nation description</div>
+               <div class='subdescrip'><b class="leader-command">.set iso &lt;nation-name&gt; &lt;iso&gt;</b>: Change nation ISO code</div>
+               <div class='subdescrip'><b class="leader-command">.set capital &lt;nation-name&gt; &lt;city&gt;</b>: Change nation capital city</div>
+               <div class='subdescrip'><b class="leader-command">.set bank &lt;nation-name&gt; &lt;bank-name&gt;</b>: Change nation central bank</div>
+               <div class='subdescrip'><b class="leader-command">.set city &lt;nation-name&gt; &lt;city&gt;</b>: Adds a city to your country</div>
             </section>
             <section id='wiki' class='darkback'>
-                <h2 class='indescrip'>Wiki</h2>
-                <br><br>
-                <div class='subdescrip'><b>Beginning States</b>: These states spawn automatically upon the dawning of your server's civilization.</div>
-                <table class='bigtable'>
-                    <tr>
-                      <th>Country</th>
-                      <th>Currency</th>
-                      <th>Released</th>
-                    </tr>
-                    <tr>
-                      <td><div class='country'><a href='https://en.wikipedia.org/wiki/Australia' target='_blank'>Australia</a></div></td>
-                      <td>AUD</td>
-                      <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Brazil' target='_blank'>Brazil</a></div></td>
-                        <td>BRL</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Canada' target='_blank'>Canada</a></div></td>
-                        <td>CAD</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/China' target='_blank'>China</a></div></td>
-                        <td>CNY</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/France' target='_blank'>France</a></div></td>
-                        <td>EUR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Germany' target='_blank'>Germany</a></div></td>
-                        <td>EUR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/India' target='_blank'>India</a></div></td>
-                        <td>INR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Indonesia' target='_blank'>Indonesia</a></div></td>
-                        <td>IDR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Italy' target='_blank'>Italy</a></div></td>
-                        <td>EUR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Japan' target='_blank'>Japan</a></div></td>
-                        <td>JPY</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Mexico' target='_blank'>Mexico</a></div></td>
-                        <td>MXN</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/South_Korea' target='_blank'>Republic of Korea</a></div></td>
-                        <td>KRW</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Russia' target='_blank'>Russia</a></div></td>
-                        <td>RUB</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/South_Africa' target='_blank'>South Africa</a></div></td>
-                        <td>ZAR</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/Turkey' target='_blank'>Turkey</a></div></td>
-                        <td>TRY</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/United_Kingdom' target='_blank'>United Kingdom</a></div></td>
-                        <td>GBP</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr>
-                        <td><div class='country'><a href='https://en.wikipedia.org/wiki/United_States' target='_blank'>United States of America</a></div></td>
-                        <td>USD</td>
-                        <td>2019/10/05</td>
-                    </tr>
-                    <tr style='color: red'>
-                        <td><div class='country'><a style='color: red' href='https://en.wikipedia.org/wiki/Argentina' target='_blank'>Argentina</a></div></td>
-                        <td>ARS</td>
-                        <td>REMOVED 2019/09/28</td>
-                    </tr>
-                    <tr style='color: red'>
-                        <td><div class='country'><a style='color: red' href='https://en.wikipedia.org/wiki/Saudi_Arabia' target='_blank'>Saudi Arabia</a></div></td>
-                        <td>SAR</td>
-                        <td>REMOVED 2019/09/28</td>
-                    </tr>
-                    <tr style='color: greenyellow'>
-                        <td><div class='country'><a style='color: greenyellow'>???</a></div></td>
-                        <td></td>
-                        <td>COMING SOON</td>
-                    </tr>
-                </table>
-                <br>
+               <h2 class='indescrip'>Wiki</h2>
+               <br><br>
+               <div class='subdescrip'><b>Beginning States</b>: These states spawn automatically upon the dawning of your server's civilization.</div>
+               <table class='bigtable'>
+                  <tr>
+                     <th>Country</th>
+                     <th>Currency</th>
+                     <th>Released</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Australia' target='_blank'>Australia</a></div>
+                     </td>
+                     <td>AUD</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Brazil' target='_blank'>Brazil</a></div>
+                     </td>
+                     <td>BRL</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Canada' target='_blank'>Canada</a></div>
+                     </td>
+                     <td>CAD</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/China' target='_blank'>China</a></div>
+                     </td>
+                     <td>CNY</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/France' target='_blank'>France</a></div>
+                     </td>
+                     <td>EUR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Germany' target='_blank'>Germany</a></div>
+                     </td>
+                     <td>EUR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/India' target='_blank'>India</a></div>
+                     </td>
+                     <td>INR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Indonesia' target='_blank'>Indonesia</a></div>
+                     </td>
+                     <td>IDR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Italy' target='_blank'>Italy</a></div>
+                     </td>
+                     <td>EUR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Japan' target='_blank'>Japan</a></div>
+                     </td>
+                     <td>JPY</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Mexico' target='_blank'>Mexico</a></div>
+                     </td>
+                     <td>MXN</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/South_Korea' target='_blank'>Republic of Korea</a></div>
+                     </td>
+                     <td>KRW</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Russia' target='_blank'>Russia</a></div>
+                     </td>
+                     <td>RUB</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/South_Africa' target='_blank'>South Africa</a></div>
+                     </td>
+                     <td>ZAR</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/Turkey' target='_blank'>Turkey</a></div>
+                     </td>
+                     <td>TRY</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/United_Kingdom' target='_blank'>United Kingdom</a></div>
+                     </td>
+                     <td>GBP</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class='country'><a href='https://en.wikipedia.org/wiki/United_States' target='_blank'>United States of America</a></div>
+                     </td>
+                     <td>USD</td>
+                     <td>2019/10/05</td>
+                  </tr>
+                  <tr style='color: red'>
+                     <td>
+                        <div class='country'><a style='color: red' href='https://en.wikipedia.org/wiki/Argentina' target='_blank'>Argentina</a></div>
+                     </td>
+                     <td>ARS</td>
+                     <td>REMOVED 2019/09/28</td>
+                  </tr>
+                  <tr style='color: red'>
+                     <td>
+                        <div class='country'><a style='color: red' href='https://en.wikipedia.org/wiki/Saudi_Arabia' target='_blank'>Saudi Arabia</a></div>
+                     </td>
+                     <td>SAR</td>
+                     <td>REMOVED 2019/09/28</td>
+                  </tr>
+                  <tr style='color: greenyellow'>
+                     <td>
+                        <div class='country'><a style='color: greenyellow'>???</a></div>
+                     </td>
+                     <td></td>
+                     <td>COMING SOON</td>
+                  </tr>
+               </table>
+               <br>
             </section>
             <section id='development' class='lightback'>
-                <h2 class='indescrip'>Development</h2>
-                <br>
-                <div class='subdescrip centered'><a>APIs Used</a></div>   
-                <div class='subdescrip'><b>discord.py</b> discord.py is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.</div>
-                <div class='subdescrip'><b>Exchange Rates</b> Exchange rates API is a free service for current and historical foreign exchange rates
-                    published by the European Central Bank.</div>
-                <div class='subdescrip'><b>Wikipedia</b> Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.</div>
+               <h2 class='indescrip'>Development</h2>
+               <br>
+               <div class='subdescrip centered'><a>APIs Used</a></div>
+               <div class='subdescrip'><b>discord.py</b> discord.py is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.</div>
+               <div class='subdescrip'><b>Exchange Rates</b> Exchange rates API is a free service for current and historical foreign exchange rates
+                  published by the European Central Bank.
+               </div>
+               <div class='subdescrip'><b>Wikipedia</b> Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.</div>
             </section>
             <section id='resources' class='darkback'>
-                <h2 class='indescrip'>Resources</h2>
-                <br>
-                <div class='centered'>
-                    <div class='subdescrip'>Invite this bot to your discord server, view it on top.gg, or see the source code on GitHub</div>
-                    <a href='https://discordapp.com/api/oauth2/authorize?client_id=600823440802316288&scope=bot&permissions=0' title='Invite to Server' target='_blank'><img src='src/img/discord.png' class='media-icon'></img></a>    
-                    <a href='https://top.gg/bot/600823440802316288' title='top.gg' target='_blank'><img src='src/img/tgglogo.png' class='media-icon'></img></a>    
-                    <a href='https://github.com/kevinjycui/Geopoli' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon'></img></a>
-                </div>
-                <br>
-                <div class='centered'><iframe src="https://discordapp.com/widget?id=626968531484803083&theme=dark" class='discord' allowtransparency="true" frameborder="0"></iframe></div>
-                <br><br>
+               <h2 class='indescrip'>Resources</h2>
+               <br>
+               <div class='centered'>
+                  <div class='subdescrip'>Invite this bot to your discord server, view it on top.gg, or see the source code on GitHub</div>
+                  <a href='https://discordapp.com/api/oauth2/authorize?client_id=600823440802316288&scope=bot&permissions=0' title='Invite to Server' target='_blank'><img src='src/img/discord.png' class='media-icon'></img></a>    
+                  <a href='https://top.gg/bot/600823440802316288' title='top.gg' target='_blank'><img src='src/img/tgglogo.png' class='media-icon'></img></a>    
+                  <a href='https://github.com/kevinjycui/Geopoli' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon'></img></a>
+               </div>
+               <br>
+               <div class='centered'><iframe src="https://discordapp.com/widget?id=626968531484803083&theme=dark" class='discord' allowtransparency="true" frameborder="0"></iframe></div>
+               <br><br>
             </section>
-        </div>
-        <footer class='foot' id='contact'>
+         </div>
+         <footer class='foot' id='contact'>
             <a class='legal'>© 2019 Kevin Junyang Cui | Toronto, ON Canada</a>
             <br><br>
             <a class='legal email' href='index.html'>kevincui.dev</a>
             <br><br>
-        </footer>
-    </div>
-
-</body>
-
+         </footer>
+      </div>
+   </body>
 </html>
-

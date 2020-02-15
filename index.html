@@ -1,115 +1,125 @@
 <!-- Hello, curious soul! Welcome to the source code for my website :)
-I decided to put together this website as a sort of portfolio/profile page where I can compile all my work. I build a lot of things
-(mostly software), and I thought that I should have somewhere to showcase all of it. Stay tuned!
-This site is developed, designed, and maintained by Kevin Cui. Last updated August 30, 2019 -->
-
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Kevin Cui</title>
-    <link rel='stylesheet' href='style.css' />
-    <link rel='icon' href='src/img/plane.JPG'>
-</head>
-<body id='body'>
-
-    <nav class='title fixedElement'>
-        
-        <div class='container'>
-            <a href='index.html'><img src='src/img/plane.JPG' class='button'></img></a>
-        </div>
-        <div class='container'>
-            <a><img src='src/img/hamburger-menu.png' class='mobile animated'></img></a>
-        </div>
-        <div class='container'>
-            <a href='#portfolio'><img src='src/img/codlogo.png' class='navIcon smallIcon animated'></img></a>
-            <div class='overlay'>
-                    <div class='text'><b>Portfolio</b></div>
+   I decided to put together this website as a sort of portfolio/profile page where I can compile all my work. I build a lot of things
+   (mostly software), and I thought that I should have somewhere to showcase all of it. Stay tuned!
+   This site is developed, designed, and maintained by Kevin Cui. Last updated August 30, 2019 -->
+   <!DOCTYPE html>
+   <html lang='en'>
+      <head>
+         <meta charset='UTF-8'>
+         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+         <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+         <title>Kevin Cui</title>
+         <link rel='stylesheet' href='style.css' />
+         <link rel='icon' href='src/img/plane.JPG'>
+      </head>
+      <body id='body'>
+         <nav class='title fixedElement'>
+            <div class='container'>
+               <a href='index.html'><img src='src/img/plane.JPG' class='button'></img></a>
             </div>
-        </div>
-        <div class='container'>
-            <a href='#resume'><img src='src/img/about.png' class='navIcon smallIcon animated'></img></a>
-            <div class='overlay'>
-                <div class='text'><b>Resumé</b></div>
+            <div class='container'>
+               <a><img src='src/img/hamburger-menu.png' class='mobile animated'></img></a>
             </div>
-        </div>
-        <div class='container'>
-            <a href='#about'><img src='src/img/abtlogo.png' class='navIcon smallIcon animated'></img></a>
-            <div class='overlay'>
-                <div class='text'><b>About Me</b></div>
+            <div class='container'>
+               <a href='#portfolio'><img src='src/img/codlogo.png' class='navIcon smallIcon animated'></img></a>
+               <div class='overlay'>
+                  <div class='text'><b>Portfolio</b></div>
+               </div>
             </div>
-        </div>
-        <div class='container'>
-            <a href='#contact'><img src='src/img/atlogo.svg' class='navIcon smallIcon animated'></img></a>
-            <div class='overlay'>
-                <div class='text'><b>Contact</b></div>
+            <div class='container'>
+               <a href='#resume'><img src='src/img/about.png' class='navIcon smallIcon animated'></img></a>
+               <div class='overlay'>
+                  <div class='text'><b>Resumé</b></div>
+               </div>
             </div>
-        </div>
-        <script src="src/js/mobileMenu.js"></script>
-
-    </nav>
-
-    <div class='view'>
-        <div class='main'>
-            <div class='mainhead'>
-                <div class='descrip'>
-                    <h3 class='bigtitle'>Kevin Cui</h3>
-                </div>
-                <div class='landscape'></div>
-                <section id="portfolio">
-                    <div class="lightback">
-                        <h2 class='indescrip'>Portfolio</h2><br>
+            <div class='container'>
+               <a href='#about'><img src='src/img/abtlogo.png' class='navIcon smallIcon animated'></img></a>
+               <div class='overlay'>
+                  <div class='text'><b>About Me</b></div>
+               </div>
+            </div>
+            <div class='container'>
+               <a href='#contact'><img src='src/img/atlogo.svg' class='navIcon smallIcon animated'></img></a>
+               <div class='overlay'>
+                  <div class='text'><b>Contact</b></div>
+               </div>
+            </div>
+            <script src="src/js/mobileMenu.js"></script>
+         </nav>
+         <div class='view'>
+            <div class='main'>
+               <div class='mainhead'>
+                  <div class='descrip'>
+                     <h3 class='bigtitle'>Kevin Cui</h3>
+                  </div>
+                  <div class='landscape'></div>
+                  <section id="portfolio">
+                     <div class="lightback">
+                        <h2 class='indescrip'>Portfolio</h2>
+                        <br>
                         <div id="event-dir">
-                            <script src='src/js/getProjects.js'></script>
+                           <script src='src/js/getProjects.js'></script>
                         </div>
-                    </div>
-                    <br>
-                </section>
-            </div>
-            </section>
-            <section id='resume'>
-                <div class='darkback'>
-                    <h2 class='indescrip'>Resumé</h2>
-                    <embed class="video" src="src/Kevin Cui General Resume.pdf" />
-                    <div class='res-segment centered'>
+                     </div>
+                     <br>
+                  </section>
+               </div>
+               </section>
+               <section id='resume'>
+                  <div class='darkback'>
+                     <h2 class='indescrip'>Resumé</h2>
+                     <embed class="video" src="src/Kevin Cui General Resume.pdf" />
+                     <div class='res-segment centered'>
                         <div class='subdescrip centered'>Download</div>
                         <a id="file" target="_blank" href="src/Kevin Cui General Resume.pdf" download="Kevin Cui General Resume" target="_blank" title="My Resume (PDF)"><img class="smlogo" src="src/img/file-types/svg/008-file-7.svg" alt="smlogo"></a>	
                         <a id="file" target="_blank" href="src/Kevin Cui General Resume.zip" download="Kevin Cui General Resume" target="_blank" title="My Resume (LaTeX)"><img class="smlogo" src="src/img/file-types/svg/009-file-8.svg" alt="smlogo"></a>
-                    </div>
-                    <br>
-                </div>
-            </section>
-            <section id='about'>
-                <div class="lightback">
-                    <h2 class='indescrip'>Software Development Student</h2>
-                    <br><br>
-                    <img class='side' src='src/img/38621453.jpg'></img>
-                    <div class='subdescrip'>I am Kevin, a software developer. I am especially knowledgeable in Java and Python, and my work primarily consists of application and data-intensive back-end development, although I am aiming towards being stronger with full-stack development as well. </div>
-                    <div class='subdescrip'>Beyond Java and Python, I also have experience working with a wide range of languages, frameworks, development tools, APIs, and hardware (as listed on my resume).</div>
-                    <div class='subdescrip'>As a leader and developer in many projects- both personal and professional- I lead by example in being persistent and approaching opportunities with unique perspectives.</div>        
-                    <div class='subdescrip'>I have experience working as an Innovation Developer Intern at the RBC Royal Bank of Canada, where I did both front-end and back-end development, completed tasks through the Agile workflow, and communicated new solutions to senior business leaders. I am currently enrolled in secondary school, where I actively participate in the computer science club and hold academic awards in a variety of STEM courses.</div>
-                    <br><br>
-                </div>
-            </section>
-        </div>
-        <footer class='foot' id='contact'>
-            <a class='legal'>© 2019 Kevin Junyang Cui | Toronto, ON Canada</a>
-            <br><br>
-            <a class='legal email' href='mailto:info@kevincui.dev' target='_blank'>info@kevincui.dev</a>
-            <br><br>
-            <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon'></img></a>
-            <a href='https://www.linkedin.com/in/kevin-jy-cui/' title='LinkedIn' target='_blank'><img src='src/img/media-icons/linkedin.svg' class='media-icon'></img></a>
-            <a href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon'></img></a>
-            <a href='https://dmoj.ca/user/ManchurioX' title='DMOJ' target='_blank'><img src='src/img/media-icons/dmoj.png' class='media-icon'></img></a>
-            <a href='https://medium.com/@kevinjycui' title='Medium' target='_blank'><img src='src/img/media-icons/medium.png' class='media-icon'></img></a>
-            <a href='https://top.gg/user/492435232071483392' title='top.gg' target='_blank'><img src='src/img/tgglogo.png' class='media-icon'></img></a>
-            <br><br>
-        </footer>
-    </div>
-
-</body>
-
-</html>
-
+                     </div>
+                     <br>
+                  </div>
+               </section>
+               <section id='about'>
+                  <div class="lightback">
+                     <h2 class='indescrip'>Software Development Student</h2>
+                     <br><br>
+                     <img class='side' src='src/img/38621453.jpg'></img>
+                     <div class='subdescrip'>I am Kevin, a software developer. I am especially knowledgeable in Java and Python, and my work primarily consists of application and data-intensive back-end development, although I am aiming towards being stronger with full-stack development as well. </div>
+                     <div class='subdescrip'>Beyond Java and Python, I also have experience working with a wide range of languages, frameworks, development tools, APIs, and hardware (as listed on my resume).</div>
+                     <div class='subdescrip'>As a leader and developer in many projects- both personal and professional- I lead by example in being persistent and approaching opportunities with unique perspectives.</div>
+                     <div class='subdescrip'>I have experience working as an Innovation Developer Intern at the RBC Royal Bank of Canada, where I did both front-end and back-end development, completed tasks through the Agile workflow, and communicated new solutions to senior business leaders. I am currently enrolled in secondary school, where I actively participate in the computer science club and hold academic awards in a variety of STEM courses.</div>
+                     <br><br>
+                  </div>
+               </section>
+               <section id='resources'>
+                  <div class='darkback'>
+                     <h2 class='indescrip'>Resources</h2>
+                     <div class='res-segment centered'>
+                        <a href='https://github.com/kevinjycui/picoCTF-2019-writeup' title='GitHub' target='_blank'>
+                           <div style="background-image: url('src/img/picoctf.jpg'); color: black;" class='subdescrip eventModule'>PicoCTF 2019</div>
+                        </a>
+                        <a href='https://github.com/kevinjycui/advent-of-code-2019' title='GitHub' target='_blank'>
+                           <div style="background-image: url('src/img/aoc.png'); color: white;" class='subdescrip eventModule'>Advent of Code 2019</div>
+                        </a>
+                        <a href='https://github.com/kevinjycui/Competitive-Programming' title='GitHub' target='_blank'>
+                           <div style="background-image: url('src/img/download.jfif'); color: black;" class='subdescrip eventModule'>Competitive Programming 2017-2020</div>
+                        </a>
+                     </div>
+                     <br>
+                  </div>
+               </section>
+            </div>
+            <footer class='foot' id='contact'>
+               <a class='legal'>© 2019 Kevin Junyang Cui | Toronto, ON Canada</a>
+               <br><br>
+               <a class='legal email' href='mailto:info@kevincui.dev' target='_blank'>info@kevincui.dev</a>
+               <br><br>
+               <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon'></img></a>
+               <a href='https://www.linkedin.com/in/kevin-jy-cui/' title='LinkedIn' target='_blank'><img src='src/img/media-icons/linkedin.svg' class='media-icon'></img></a>
+               <a href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon'></img></a>
+               <a href='https://dmoj.ca/user/ManchurioX' title='DMOJ' target='_blank'><img src='src/img/media-icons/dmoj.png' class='media-icon'></img></a>
+               <a href='https://devpost.com/kevinjycui?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav' title='Devpost' target='_blank'><img src='src/img/media-icons/devpost.png' class='media-icon'></img></a>
+               <a href='https://medium.com/@kevinjycui' title='Medium' target='_blank'><img src='src/img/media-icons/medium.png' class='media-icon'></img></a>
+               <br><br>
+            </footer>
+         </div>
+      </body>
+   </html>
