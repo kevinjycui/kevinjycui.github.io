@@ -1,4 +1,6 @@
 const portfolio = [
+    {'date':'2020'},
+    {'name':"Conway's Game of Life", 'desc':"Simple Game of Life clone with Python.", 'source':'src/img/conway.JPG', 'repo':'https://github.com/kevinjycui/Conway-s-Game-of-Life'},
     {'date':'2019'},
     {'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://top.gg/bot/600823440802316288'},
     {'name':'Hack the North 2019 MPb3ats', 'desc':'MPb3ats takes an MP3 file as input, and creates a customised level for its accompanying rhythm game.', 'source':'src/img/medium.jpg', 'repo':'https://devpost.com/software/mpbeats'},
@@ -106,6 +108,14 @@ function hideDesc10() {
     var popup = document.getElementsByClassName("popuptext");
     popup[10].className = 'popuptext';
 }
+function showDesc11() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[11].className = 'popuptext show';
+}
+function hideDesc11() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[11].className = 'popuptext';
+}
 
 let ind = 0;
 
@@ -168,6 +178,10 @@ for (e of portfolio) {
         else if (ind === 10) {
             profile.onmouseover = showDesc10;
             profile.onmouseout = hideDesc10;
+        }
+        else if (ind === 11) {
+            profile.onmouseover = showDesc11;
+            profile.onmouseout = hideDesc11;
         }
         link.appendChild(profile);
         let element = document.getElementById("event-dir");
