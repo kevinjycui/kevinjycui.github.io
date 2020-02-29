@@ -950,14 +950,14 @@ to {width: 8%;}
 	width: 30px;
 	height: 30px;
 	position: relative;
-	border: 4px solid #Fff;
+	border: 4px solid #F7F8FA;
 	animation: loader 2s infinite ease;
   }
   .loader-inner {
 	vertical-align: top;
 	display: inline-block;
 	width: 100%;
-	background-color: #fff;
+	background-color: #F7F8FA;
 	animation: loader-inner 2s infinite ease-in;
   }
   @keyframes loader {
