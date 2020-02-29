@@ -9,6 +9,9 @@
          <meta name='viewport' content='width=device-width, initial-scale=1.0'>
          <meta http-equiv='X-UA-Compatible' content='ie=edge'>
          <title>Kevin Cui</title>
+         <meta name="description" content="I am Kevin, a software developer. I decided to put together this website as a sort of portfolio/profile page where I can compile all my work.">
+         <meta name="keywords" content="Kevin, Cui, Software, Computer Science, Developer, Java, Python, Student, High School, Software Developer, Software Engineer, Back-end, Front-end, Full-stack">
+         <meta name="author" content="Kevin Junyang Cui">
          <link rel='stylesheet' href='style.css' />
          <link rel='icon' href='src/img/plane.JPG'>
       </head>
@@ -121,5 +124,16 @@
                <br><br>
             </footer>
          </div>
+
+         <div class="loader-wrapper" id="load">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+          <script>
+               window.onload = function() {
+                  window.scrollTo(0, 0);
+                  document.getElementById("load").className += " loaded";
+               }
+          </script>
+
       </body>
    </html>
