@@ -1039,6 +1039,13 @@ to {width: 8%;}
 	}
 }
 
+.resourceModule {
+	background-color: #182e3f;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1080px) {
 	.smlogo {
 		height: 12%;
