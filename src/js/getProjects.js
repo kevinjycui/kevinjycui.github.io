@@ -1,7 +1,7 @@
 const portfolio = [
     {'date':'2020'},
     {'name':"Practice Bot", 'desc':"The all-competitive-programming-purpose Discord bot!", 'source':'src/img/tea_icon.png', 'repo':'https://github.com/kevinjycui/Practice-Bot'},
-    {'name':"Top Down Parser", 'desc':"Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.", 'source':'src/img/parser.JPG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser'},
+    {'name':"Top Down Parser", 'desc':"Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.", 'source':'src/img/parser.PNG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser'},
     {'name':"Conway's Game of Life", 'desc':"Simple Game of Life clone with Python.", 'source':'src/img/conway.JPG', 'repo':'https://github.com/kevinjycui/Conway-s-Game-of-Life'},
     {'date':'2019'},
     {'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://top.gg/bot/600823440802316288'},
