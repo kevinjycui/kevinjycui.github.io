@@ -1,5 +1,7 @@
 const portfolio = [
     {'date':'2020'},
+    {'name':"Practice Bot", 'desc':"The all-competitive-programming-purpose Discord bot!", 'source':'src/img/tea_icon.png', 'repo':'https://github.com/kevinjycui/Practice-Bot'},
+    {'name':"Top Down Parser", 'desc':"Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.", 'source':'src/img/parser.JPG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser'},
     {'name':"Conway's Game of Life", 'desc':"Simple Game of Life clone with Python.", 'source':'src/img/conway.JPG', 'repo':'https://github.com/kevinjycui/Conway-s-Game-of-Life'},
     {'date':'2019'},
     {'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://top.gg/bot/600823440802316288'},
@@ -116,6 +118,22 @@ function hideDesc11() {
     var popup = document.getElementsByClassName("popuptext");
     popup[11].className = 'popuptext';
 }
+function showDesc12() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[12].className = 'popuptext show';
+}
+function hideDesc12() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[12].className = 'popuptext';
+}
+function showDesc13() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[13].className = 'popuptext show';
+}
+function hideDesc13() {
+    var popup = document.getElementsByClassName("popuptext");
+    popup[13].className = 'popuptext';
+}
 
 let ind = 0;
 
@@ -182,6 +200,14 @@ for (e of portfolio) {
         else if (ind === 11) {
             profile.onmouseover = showDesc11;
             profile.onmouseout = hideDesc11;
+        }
+        else if (ind === 12) {
+            profile.onmouseover = showDesc12;
+            profile.onmouseout = hideDesc12;
+        }
+        else if (ind === 13) {
+            profile.onmouseover = showDesc13;
+            profile.onmouseout = hideDesc13;
         }
         link.appendChild(profile);
         let element = document.getElementById("event-dir");
