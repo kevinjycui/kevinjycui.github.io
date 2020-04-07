@@ -1046,6 +1046,11 @@ to {width: 8%;}
 	text-decoration: none;
 }
 
+.blurb {
+	margin: auto;
+	overflow-wrap: break-word;
+}
+
 @media screen and (max-width: 1080px) {
 	.smlogo {
 		height: 12%;
@@ -1087,10 +1092,6 @@ to {width: 8%;}
 	}
 	.subdescrip {
 		font-size: 0.2rem;
-	}
-	.blurb {
-		margin: auto;
-		overflow-wrap: break-word;
 	}
 	h2 {
 		margin: auto;
@@ -1260,5 +1261,9 @@ to {width: 8%;}
 			max-width: 5%;
 			width: 5%;
 		}
+	}
+
+	.blurb {
+		display: none;
 	}
 }
