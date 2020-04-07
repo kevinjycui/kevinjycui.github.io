@@ -5,6 +5,6 @@ const subtitles = [
             ];
 
 let blurb = document.createElement("p");
-blurb.append(document.createTextNode(subtitles[Math.round(Math.random()*(subtitles.length-1))]));
+blurb.append(document.createTextNode(subtitles[Math.floor(Math.random()*subtitles.length)]));
 blurb.className = "subdescrip blurb";
 document.getElementById("titlename").appendChild(blurb);
