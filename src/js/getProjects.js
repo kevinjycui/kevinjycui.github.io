@@ -2,7 +2,6 @@ const portfolio = [
     {'date':'2020'},
     {'name':"Practice Bot", 'desc':"The all-competitive-programming-purpose Discord bot!", 'source':'src/img/tea_icon.png', 'repo':'https://github.com/kevinjycui/Practice-Bot'},
     {'name':"Top Down Parser", 'desc':"Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.", 'source':'src/img/parser.PNG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser'},
-    {'name':"Conway's Game of Life", 'desc':"Simple Game of Life clone with Python.", 'source':'src/img/conway.JPG', 'repo':'https://github.com/kevinjycui/Conway-s-Game-of-Life'},
     {'date':'2019'},
     {'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://top.gg/bot/600823440802316288'},
     {'name':'Hack the North 2019 MPb3ats', 'desc':'MPb3ats takes an MP3 file as input, and creates a customised level for its accompanying rhythm game.', 'source':'src/img/medium.jpg', 'repo':'https://devpost.com/software/mpbeats'},
@@ -15,7 +14,6 @@ const portfolio = [
     {'date':'2018'},
     {'name':'EEG Cursor Controller w/ Emotiv', 'desc':'An application for converting real-time synaptic commands using the Emotiv INSIGHT headgear to navigate the cursor on a screen.', 'source':'src/img/eeg.png', 'repo':'https://medium.com/@kevinjycui/of-mice-and-mind-creating-a-simple-eeg-cursor-control-application-7fcdad703d2f'},
     {'name':'Trinidad Guppy Simulator', 'desc':'Evolution simulating model based off of natural and sexual selection experiments of the Trinidad Guppy.', 'source':'src/img/trinidad.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies'},    
-    {'name':'Westmount C.I. Model UN', 'desc':'Website for my high school Model UN club', 'source':'src/img/wcimun.JPG', 'repo':'https://wcimun.netlify.com/'},
 ]
 
 function showDesc0() {
