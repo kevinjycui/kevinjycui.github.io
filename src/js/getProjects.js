@@ -1,11 +1,12 @@
 const portfolio = [
     {'date':'2020'},
+    {'name':"TOHacks 2020 DialekTech", 'desc':"( Most Innovative DCP App runner-up) The all-comprehensive educational video analyzer.", 'source':'src/img/dialektech.jpg', 'repo':'https://devpost.com/software/note-js-wcmbkh'},
     {'name':"Practice Bot", 'desc':"The all-competitive-programming-purpose Discord bot!", 'source':'src/img/tea_icon.png', 'repo':'https://github.com/kevinjycui/Practice-Bot'},
     {'name':"Top Down Parser", 'desc':"Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.", 'source':'src/img/parser.PNG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser'},
     {'date':'2019'},
     {'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://top.gg/bot/600823440802316288'},
     {'name':'Hack the North 2019 MPb3ats', 'desc':'MPb3ats takes an MP3 file as input, and creates a customised level for its accompanying rhythm game.', 'source':'src/img/medium.jpg', 'repo':'https://devpost.com/software/mpbeats'},
-    {'name':'PennApps XX Hand Spoken OCR', 'desc':'An innovative solution that combines the ease of writing with the beauty of an individual\'s unique handwriting.', 'source':'src/img/handspoken.JPG', 'repo':'https://devpost.com/software/hand-spoken'},
+    {'name':'PennApps XX Hand Spoken OCR', 'desc':'(Top 30 winner) An innovative solution that combines the ease of writing with the beauty of an individual\'s unique handwriting.', 'source':'src/img/handspoken.JPG', 'repo':'https://devpost.com/software/hand-spoken'},
     {'name':'RBC VoiceHacks Innovoicer w/ Rasa to Mycroft', 'desc':'The Innovoicer performs a set of voice command based actions that assist with the recording, reporting, and management of business meetings', 'source':'src/img/mycroft.jpg', 'repo':'https://mycroft.ai/blog/connecting-rasa-to-mycroft-a-guide/'},
     {'name':'ENFERI w/ Emotiv and Arduino', 'desc':'Electroencephalographic Neuromuscular Facial Expression Recognition Interface, uses Arduino and Emotiv API to mimic facial expressions. Built for TEJ3U1 course, full marks.', 'source':'src/img/work-img.jpg', 'repo':'https://github.com/kevinjycui/enferi'},
     {'name':'Dijkstra Transportation Network', 'desc':'Automated Transportation Network using Dijkstra\'s Algorithm.', 'source':'src/img/map_visual.jpg', 'repo':'https://github.com/kevinjycui/Dijkstra-Transportation-Network'},
