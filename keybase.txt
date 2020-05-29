@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/manchuriox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kevincui.dev
+  * I am manchuriox (https://keybase.io/manchuriox) on keybase.
+  * I have a public key with fingerprint C0E0 8F6D 9101 88FB E59D  DB9B 954D BF44 1726 07FC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01015f1cac7d378a12a1159d538c3e7a37ce8da537174482eb0579dbf4994c42d6480a",
+      "fingerprint": "c0e08f6d910188fbe59ddb9b954dbf44172607fc",
+      "host": "keybase.io",
+      "key_id": "954dbf44172607fc",
+      "kid": "01015f1cac7d378a12a1159d538c3e7a37ce8da537174482eb0579dbf4994c42d6480a",
+      "uid": "d2077d59a33f22f3817dee4f9f34c419",
+      "username": "manchuriox"
+    },
+    "service": {
+      "hostname": "kevincui.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1590784871,
+  "expire_in": 157680000,
+  "prev": "78e7286218480f82ed9258fb13a18d1f2ff7476c92eb1ef6575cafd6e031a34a",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIrAnicrZJbSBVBGMePaaaW0ENWoiWukYESO3ub2fPQQ0UXqIhIQ5GOszszuh3d
+Pe3uOXYqy6Cil+hKJJn2EPUQPkRRmCQqXaDoYkIXyzAji6IiCgssbVbqrcfmZZhv
+fv//d5m5kZ0aykqJ7h7Wpj5uH0m529McD23u82p2CIZDkkJ4hxClkxutI9TzI1GL
+CGFBBCJQGTCxCYkMEQYSBkDViSojU6YQy9CkiGBVhgAqCpKoIapQJwZTdF0xFYlo
+ChKxUCowy66hbsy1bJ/bmiIVEdOIzu0RYgbllsTQDV1VAq0CoKSJkJlcWOt4gYIX
+Z2CPLrYcHuOHyGR5/+D/c93xSTsiiRASVceyzCSJyQhAQqnCdCZzGugB6FHXxvWU
+0/XYNmvjruVsExpLBR5PWCYNRhv08oeJ0oRlm3FrMaEJro65ju+YTh2/qfX9mBcO
+lH4yFqAN1Ij8MYkYlk34JLkiQV3PcmwhDDhp+lbgyjsUIVIQBKUC3RazXBqxAkKF
+GhL5CvLwdGEBIgolpEmAwyLj7RNdUvk7ABkDRACTGIMK1EydDwZQpqlQNTEjGhVl
+gGUlGIxHt9qOEEa8TFzDLT2rxsZ+3KVCY293VVooJSuUPnVK8MNCWZkz//6776PT
+Jla3nrjnriqTxfa1auav1JzMxhmsriTZ9m1u04WvZbmp309WnAlPHM/+gCYyWg5s
+6uw+Ul7XkXal9cvE/YXjg4fWbxwtO3X0x+e+Pe47p+zposGzuYWhDR8Hq7b3LxhI
+PshvG1kuRvYVHSm5ldt/CbeUFw9d3qlWPzh2Z33P9ZSLs+bNXx3vKrpzbY6EzuV/
+zbsyfXp/9rmC4qS3YM6r81WfnjjDJ7ujA00dzx6pIFHR03om72DahRV7Dw/1xYeu
+7lzb+vpnVfnVQy+31i+rvFk5VrBkaefn2b2rpjx8+6K3euHK023psn57vKA7p3kN
+3r+rUPXbutZ93DJWOJT/5kvz+/SMkucNvwG4MUSg
+=NBgG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/manchuriox
+
+==================================================================
