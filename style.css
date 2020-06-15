@@ -1083,6 +1083,17 @@ to {width: 8%;}
 		margin-bottom: 7%;
 		padding: auto;
 	}
+	.portrait {
+		display: block;
+		max-width: 65%;
+		margin: 4%;
+		padding: 0%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 7%;
+		padding: auto;
+	}
 	.foot {
 		float: right;
 		width: 90%;
