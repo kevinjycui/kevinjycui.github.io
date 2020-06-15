@@ -1,35 +1,35 @@
-const icons = document.getElementsByClassName("navIcon smallIcon");
-const texts = document.getElementsByClassName("overlay");
-const flyoutElement = document.getElementsByClassName("title")[0];
+const icons = document.getElementsByClassName('navIcon smallIcon');
+const texts = document.getElementsByClassName('overlay');
+const flyoutElement = document.getElementsByClassName('title')[0];
 
 if (screen.width <= 1080) {
-    let mobile = document.getElementsByClassName("mobile")[0];
+    let mobile = document.getElementsByClassName('mobile')[0];
     mobile.style.display = 'inline';
     for (i of icons) {
-        i.style.display = "none";
+        i.style.display = 'none';
     }
     for (t of texts) {
-        t.style.display = "none"
+        t.style.display = 'none'
     }
 } else {
     if (flyoutElement.style.width == '50%') {
         close();
     }
-    let mobile = document.getElementsByClassName("mobile")[0];
+    let mobile = document.getElementsByClassName('mobile')[0];
     mobile.style.display = 'none';
     for (i of icons) {
-        i.style.display = "inline";
+        i.style.display = 'inline';
     }
     for (t of texts) {
-        t.style.display = "inline"
+        t.style.display = 'inline'
     }
 }
 
-document.addEventListener("click", (evt) => {
+document.addEventListener('click', (evt) => {
     if (screen.width <= 1080) {
 
         let targetElement = evt.target;
-        let mobile = document.getElementsByClassName("mobile")[0];
+        let mobile = document.getElementsByClassName('mobile')[0];
 
         do {
             if (targetElement == mobile) {
@@ -58,35 +58,35 @@ window.onresize = () => {
     width = this.innerWidth;
     height = this.innerHeight;
     if (width <= 1080) {
-        let mobile = document.getElementsByClassName("mobile")[0];
+        let mobile = document.getElementsByClassName('mobile')[0];
         if (flyoutElement.style.width == '50%') {
             mobile.style.display = 'none';
             for (i of icons) {
-                i.style.display = "inline";
+                i.style.display = 'inline';
             }
             for (t of texts) {
-                t.style.display = "inline"
+                t.style.display = 'inline'
             }
         } else {
             mobile.style.display = 'inline';
             for (i of icons) {
-                i.style.display = "none";
+                i.style.display = 'none';
             }
             for (t of texts) {
-                t.style.display = "none"
+                t.style.display = 'none'
             }
         }
     } else {
         if (flyoutElement.style.width == '50%') {
             close();
         }
-        let mobile = document.getElementsByClassName("mobile")[0];
+        let mobile = document.getElementsByClassName('mobile')[0];
         mobile.style.display = 'none';
         for (i of icons) {
-            i.style.display = "inline";
+            i.style.display = 'inline';
         }
         for (t of texts) {
-            t.style.display = "inline"
+            t.style.display = 'inline'
         }
     }
 }

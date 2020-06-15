@@ -170,6 +170,14 @@ html {
 	padding: 0% 15% 5% 15%;
 	margin-top: 0%;
 	margin-bottom: 0%;
+	display: none;
+}
+
+.download-descrip {
+	font-size: 1.2rem;
+	padding: 0% 15% 5% 15%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 .smallIcon {
@@ -357,6 +365,13 @@ to {width: 14%;}
 	width: auto;
 	margin: 4%;
 	margin-left: 15%;
+	margin-top: 0%;
+}
+
+.portrait {
+	max-width: 20%;
+	width: auto;
+	margin: 4%;
 	margin-top: 0%;
 }
 
@@ -695,15 +710,16 @@ to {width: 8%;}
 	}
 }
 
-.choice {
-	margin: 3%;
-	margin-left: 15%;
-	margin-right: 15%;
+#page {
+	display: none;
+}
+
+.textModule {
+	margin: 1%;
 	background-color: #e3e3e4;
 	padding: 2%;
-	width: auto;
-	height: auto;
 	border-radius: 50%;
+	display: inline-block;
 	vertical-align: middle;
 	border-style: solid;
 	border-radius: 7px;
@@ -711,88 +727,6 @@ to {width: 8%;}
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-}
-
-.choice:hover {
-	/* box-shadow: 0px 0px 10px #000000; */
-	cursor: pointer;
-	animation-name: choose;
-	animation-duration: 1s;
-	background-color: #bdbdbd;
-	border-color: #bdbdbd;
-}
-
-@keyframes choose {
-	from {
-		background-color: #e3e3e4;
-		border-color: #e3e3e4;
-	}
-	to {
-		background-color: #bdbdbd;
-		border-color: #bdbdbd;
-	}
-}
-
-
-/* Firefox < 16 */
-
-@-moz-keyframes choose {
-	from {
-		background-color: #e3e3e4;
-		border-color: #e3e3e4;
-	}
-	to {
-		background-color: #bdbdbd;
-		border-color: #bdbdbd;
-	}
-}
-
-
-/* Safari, Chrome and Opera > 12.1 */
-
-@-webkit-keyframes choose {
-	from {
-		background-color: #e3e3e4;
-		border-color: #e3e3e4;
-	}
-	to {
-		background-color: #bdbdbd;
-		border-color: #bdbdbd;
-		;
-	}
-}
-
-
-/* Internet Explorer */
-
-@-ms-keyframes choose {
-	from {
-		background-color: #e3e3e4;
-		border-color: #e3e3e4;
-	}
-	to {
-		background-color: #bdbdbd;
-		border-color: #bdbdbd;
-	}
-}
-
-
-/* Opera < 12.1 */
-
-@-o-keyframes choose {
-	from {
-		background-color: #e3e3e4;
-		border-color: #e3e3e4;
-	}
-	to {
-		background-color: #bdbdbd;
-		border-color: #bdbdbd;
-		;
-	}
-}
-
-#page {
-	display: none;
 }
 
 .eventModule {
@@ -1098,9 +1032,6 @@ to {width: 8%;}
 	.indescrip {
 		font-size: 1.2rem;
 	}
-	.subdescrip {
-		font-size: 0.2rem;
-	}
 	h2 {
 		margin: auto;
 		margin-left: 1%;
@@ -1128,6 +1059,13 @@ to {width: 8%;}
 		display: none;
 	}
 	.subdescrip {
+		font-size: 95%;
+		padding: 0% 15% 5% 15%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+		display: none;
+	}
+	.download-descrip {
 		font-size: 95%;
 		padding: 0% 15% 5% 15%;
 		margin-top: 2%;
