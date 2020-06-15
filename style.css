@@ -993,6 +993,10 @@ to {width: 8%;}
 	overflow-wrap: break-word;
 }
 
+.other-social {
+	display: none;
+}
+
 @media screen and (max-width: 1080px) {
 	.smlogo {
 		height: 12%;
@@ -1056,7 +1060,8 @@ to {width: 8%;}
 		margin: 5%;
 	}
 	.media-icon-light {
-		display: none;
+		max-width: 10%;
+		margin: 5%;
 	}
 	.subdescrip {
 		font-size: 95%;
