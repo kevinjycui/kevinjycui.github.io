@@ -7,10 +7,10 @@ socialButton.addEventListener('click', () => {
     const otherSocials = document.getElementsByClassName('other-social');
     if (otherSocials[0].style.display == 'inline') {
         for (soc of otherSocials) soc.style.display = 'none';
-        socialButton.textContent = 'More socials';
+        socialButton.textContent = 'More contacts';
     }
     else {
         for (soc of otherSocials) soc.style.display = 'inline';
-        socialButton.textContent = 'Less socials';
+        socialButton.textContent = 'Less contacts';
     }
 });

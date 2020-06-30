@@ -28,6 +28,12 @@ html {
   background-repeat: repeat-y; */
 }
 
+#scroll-to-contacts {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+}
+
 .title {
 	float: left;
 	text-align: center;
