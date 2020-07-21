@@ -1,9 +1,10 @@
 const resources = [
-    {'id': 'comp', 'name':'Competitive Programming 2017-2020', 'desc':' All my AC solutions to competitive programming problems (DMOJ, WCIPEG, Codeforces, etc.), 2017-2020', 'source':'src/img/cf.jpg', 'repo':'https://github.com/kevinjycui/Competitive-Programming'},
+    {'id': 'comp', 'name':'Competitive Programming 2017-2020', 'desc':'All my AC solutions to competitive programming problems (DMOJ, WCIPEG, Codeforces, etc.), 2017-2020', 'source':'src/img/cf.jpg', 'repo':'https://github.com/kevinjycui/Competitive-Programming'},
     {'id': 'ics3u1', 'name': 'ICS3U1 2018-2019', 'desc': 'All unit assignments from Grade 11 University Introduction to Computer Science elective ICS3U1, perfect scores', 'source':'src/img/python.png', 'repo':'https://github.com/kevinjycui/ICS3U1'},
     {'id': 'picoctf', 'name':'PicoCTF 2019', 'desc':'Solutions and writeups for the picoCTF 2019 Cybersecurity Competition held by Carnegie Mellon University ', 'source':'src/img/picoctf.png', 'repo':'https://github.com/kevinjycui/picoCTF-2019-writeup'},
     {'id': 'aoc', 'name':'Advent of Code 2019', 'desc':'Solutions for Advent of Code Programming Contest 2019 Advent Calendar', 'source':'src/img/aoc.png', 'repo':'https://github.com/kevinjycui/advent-of-code-2019'},
     {'id': 'ics4u1', 'name':'ICS4U1 2019-2020', 'desc':'All unit assignments from Grade 12 University Computer Science elective ICS4U1, perfect scores ', 'source':'src/img/python.png', 'repo':'https://github.com/kevinjycui/ICS4U1'},
+    {'id': 'practicewiki', 'name':'Practice Bot Wiki', 'desc':'Complete wiki for commands and other utilities of Practice Bot: The all-competitive-programming-purpose Discord Bot', 'source':'src/img/tea_icon.png', 'repo':'https://github.com/kevinjycui/Practice-Bot/wiki'},
 ];
 
 function showDesc(popup) {
