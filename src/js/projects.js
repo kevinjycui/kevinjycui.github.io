@@ -6,7 +6,7 @@ const portfolio = {
         {'id': 'tdp', 'name':'Top Down Parser', 'desc':'Simple top-down parser built in Python using a regex-based lexer. Parses non-existent language that uses mostly C/C++ derived syntax with some Pythonic operators.', 'source':'src/img/parser.PNG', 'repo':'https://github.com/kevinjycui/Top-Down-Parser', 'language': 'Python'},
     ],
     '2019': [
-        {'id': 'geopoli', 'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://github.com/kevinjycui/Geopoli', 'language': 'Python'},
+        // {'id': 'geopoli', 'name':'Geopoli w/ discord.py', 'desc':'Geopolitical economic Discord bot, fun. Application using Discord and European Central Bank Exchange Rate API', 'source':'src/img/geopoli.PNG', 'repo':'https://github.com/kevinjycui/Geopoli', 'language': 'Python'},
         {'id': 'htn2019', 'name':'Hack the North 2019 MPb3ats', 'desc':'MPb3ats takes an MP3 file as input, and creates a customised level for its accompanying rhythm game.', 'source':'src/img/medium.jpg', 'repo':'https://devpost.com/software/mpbeats', 'language': 'C++'},
         {'id': 'penn2019', 'name':'PennApps XX Hand Spoken OCR', 'desc':'(Top 30 winner) An innovative solution that combines the ease of writing with the beauty of an individual\'s unique handwriting.', 'source':'src/img/handspoken.JPG', 'repo':'https://devpost.com/software/hand-spoken', 'language': 'Python'},
         {'id': 'rbcvhack', 'name':'RBC VoiceHacks Innovoicer', 'desc':'The Innovoicer performs a set of voice command based actions that assist with the recording, reporting, and management of business meetings', 'source':'src/img/mycroft.jpg', 'repo':'https://mycroft.ai/blog/connecting-rasa-to-mycroft-a-guide/', 'language': 'Python'},
@@ -17,7 +17,7 @@ const portfolio = {
     ],
     '2018': [
         {'id': 'eegcursor', 'name':'EEG Cursor Controller w/ Emotiv', 'desc':'An application for converting real-time synaptic commands using the Emotiv INSIGHT headgear to navigate the cursor on a screen.', 'source':'src/img/eeg.png', 'repo':'https://medium.com/@kevinjycui/of-mice-and-mind-creating-a-simple-eeg-cursor-control-application-7fcdad703d2f', 'language': 'Python'},
-        {'id': 'tgs', 'name':'Trinidad Guppy Simulator', 'desc':'Evolution simulating model based off of natural and sexual selection experiments of the Trinidad Guppy.', 'source':'src/img/trinidad.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies', 'language': 'Python'},    
+        // {'id': 'tgs', 'name':'Trinidad Guppy Simulator', 'desc':'Evolution simulating model based off of natural and sexual selection experiments of the Trinidad Guppy.', 'source':'src/img/trinidad.png', 'repo':'https://github.com/kevinjycui/Trinidad-Guppies', 'language': 'Python'},    
     ]
 };
 
