@@ -14,59 +14,55 @@ This site is developed, designed, and maintained by Kevin Cui. Last updated June
       <meta name="author" content="Kevin Junyang Cui">
       <link rel='stylesheet' href='style.css' />
       <link rel='icon' href='src/img/plane.JPG'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
+
    </head>
    <body id='body'>
-      <nav class='title fixedElement'>
+      <nav class='title fixed-elements'>
+         <!-- <div class='container'>
+            <a><i class='fa fa-bars mobile animated' aria-hidden=true style='color: black'></i></a>
+         </div> -->
          <div class='container'>
-            <a href=''><img src='src/img/plane.JPG' class='button'></img></a>
-         </div>
-         <div class='container'>
-            <a><img src='src/img/hamburger-menu.png' class='mobile animated'></img></a>
-         </div>
-         <div class='container'>
-            <a href='#about'><img src='src/img/abtlogo.png' class='navIcon smallIcon animated'></img></a>
+            <a href='#about' ><i class='fa fa-user fa-3x navIcon smallIcon' aria-hidden=true style='color: white'></i>
             <div class='overlay'>
-               <div class='text'><b>About Me</b></div>
-            </div>
+               <div class='text' style='color: white; text-decoration: none; font-size: 1em;'><b>About Me</b></div>
+            </div></a>
          </div>
          <div class='container'>
-            <a href='#resume'><img src='src/img/about.png' class='navIcon smallIcon animated'></img></a>
+            <a href='#resume'><i class='fa fa-file-text fa-3x navIcon smallIcon' aria-hidden=true style='color: white'></i>
             <div class='overlay'>
-               <div class='text'><b>Resumé</b></div>
-            </div>
+               <div class='text' style='color: white; text-decoration: none; font-size: 1em;'><b>Resumé</b></div>
+            </div></a>
          </div>
          <div class='container'>
-            <a href='#portfolio'><img src='src/img/codlogo.png' class='navIcon smallIcon animated'></img></a>
+            <a href='#portfolio'><i class='fa fa-code-fork fa-3x navIcon smallIcon' aria-hidden=true style='color: white'></i>
             <div class='overlay'>
-               <div class='text'><b>Portfolio</b></div>
-            </div>
+               <div class='text' style='color: white; text-decoration: none; font-size: 1em;'><b>Portfolio</b></div>
+            </div></a>
          </div>
          <div class='container'>
-            <a href='#resources'><img src='src/img/log.png' class='navIcon smallIcon animated'></img></a>
+            <a href='#resources'><i class='fa fa-bookmark fa-3x navIcon smallIcon' aria-hidden=true style='color: white'></i>
             <div class='overlay'>
-               <div class='text'><b>Resources</b></div>
-            </div>
+               <div class='text' style='color: white; text-decoration: none; font-size: 1em;'><b>Resources</b></div>
+            </div></a>
          </div>
-         <script src="src/js/mobileMenu.js"></script>
+         <!-- <script src="src/js/mobileMenu.js"></script> -->
       </nav>
-      <!-- <div id='scroll-to-contacts'>
-         <a href='#contact' style='color: #050E1F;'>
-            <h5>
-               Scroll to Contacts
-            </h5>
-         </a>
-      </div> -->
       <div class='view'>
          <div class='main'>
             <div class='mainhead'>
                <div class='descrip' id='titlename'>
                   <h3 class='bigtitle'>Kevin Cui</h3>
                   <!-- <script src='src/js/random.js'></script> -->
-                  <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon-light'></img></a>
-                  <a href='https://www.linkedin.com/in/kevin-jy-cui/' title='LinkedIn' target='_blank'><img src='src/img/media-icons/linkedin.svg' class='media-icon-light'></img></a>
-                  <!-- <a href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon-light'></img></a> -->
+                  <div class='side-right'>
+                     <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><i class='fa fa-github' aria-hidden=true style='color: black'></i></a>
+                     <a href='https://www.linkedin.com/in/kevinjycui/' title='LinkedIn' target='_blank'><i class='fa fa-linkedin' aria-hidden=true style='color: black'></i></a>
+                     <a href='mailto:kevinjycui@protonmail.com' title='Email' target='_blank'><i class='fa fa-at' aria-hidden=true style='color: black'></i></a>
+                     <!-- <a href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon-light'></img></a> -->
+                  </div>
                </div>
-               <div class='landscape'></div>
+               <!-- <div class='landscape'></div> -->
                <section id='about'>
                   <div class="lightback">
                      <h2 class='indescrip'>Software Developer / Student</h2>
@@ -105,13 +101,14 @@ This site is developed, designed, and maintained by Kevin Cui. Last updated June
                   </div>
                </section>
                <section id='resume'>
-                  <div class='darkback'>
+                  <div class='lightback'>
                      <h2 class='indescrip'>Resumé</h2>
                      <embed class="video" src="src/Kevin_Cui_General_Resume.pdf" />
                      <div class='res-segment centered'>
                         <div class='download-descrip centered'>Download</div>
-                        <a id="file" target="_blank" href="src/Kevin_Cui_General_Resume.pdf" download="Kevin_Cui_General_Resume" target="_blank" title="My Resume (PDF)"><img class="smlogo" src="src/img/file-types/svg/008-file-7.svg" alt="smlogo"></a>	
-                        <a id="file" target="_blank" href="src/Kevin_Cui_General_Resume.zip" download="Kevin_Cui_General_Resume" target="_blank" title="My Resume (LaTeX)"><img class="smlogo" src="src/img/file-types/svg/009-file-8.svg" alt="smlogo"></a>
+                        <a id="file" target="_blank" href="src/Kevin_Cui_General_Resume.pdf" download="Kevin_Cui_General_Resume" target="_blank" title="My Resume (PDF)"><i class='fa fa-file-pdf-o' aria-hidden=true style='color: black'></i> PDF Download</a>	
+                        <br>
+                        <a id="file" target="_blank" href="src/Kevin_Cui_General_Resume.zip" download="Kevin_Cui_General_Resume" target="_blank" title="My Resume (LaTeX)"><i class='fa fa-file-archive-o' aria-hidden=true style='color: black'></i> LaTeX Download</a>
                      </div>
                      <br>
                   </div>
@@ -121,19 +118,103 @@ This site is developed, designed, and maintained by Kevin Cui. Last updated June
                   <div class="lightback">
                      <h2 class='indescrip'>Portfolio</h2>
                      <br>
-                     <div id="event-dir">
-                        <script src='src/js/projects.js'></script>
-                     </div>
+                     <div style="text-align: center; width: 100%; margin: auto;" class="github-widget centered" data-username="kevinjycui"></div>
+                     <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+                     <p class="centered">
+                        <samp>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=python" target="_blank"><img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=Python&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=javascript" target="_blank"><img alt="Java" src="https://img.shields.io/badge/-Javascript-f1e05a?style=flat-square&logo=Javascript&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=c%2B%2B" target="_blank"><img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-f34b7d?style=flat-square&logo=C%2B%2B&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=java" target="_blank"><img alt="Java" src="https://img.shields.io/badge/-Java-b07219?style=flat-square&logo=Java&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=html" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square"></a>
+                        </samp>
+                     </p>
+
                   </div>
                   <br>
                </section>
             </div>
             </section>
             <section id='resources'>
-            <div class='darkback'>
+            <div class='lightback'>
                <h2 class='indescrip'>Resources</h2>
-               <div id='resource-dir' class='res-segment centered'>
-                  <script src='src/js/resources.js'></script>
+               <br>
+
+               <script>
+                  function togglePopup(popup) {
+                    var popup = document.getElementById(popup);
+                    popup.classList.toggle("show");
+                  }
+               </script>
+                
+               <div id='resource-dir' class='res-segment'>
+                  <table id="resource-table">
+                     <tr>
+                        <th>Name</th>
+                        <th>Year</th>
+                        <th>URL</th>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2020 <div class='popup' onclick='togglePopup("aoc2020")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2020'>Solutions for Advent of Code Programming Contest 2020 Advent Calendar</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://github.com/kevinjycui/advent-of-code-2020' style='text-decoration: none;' target='_blank'>Solutions <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr style='background-color: #ffdf00'>
+                        <td>Hack the Northeast 2020 - Top 3 Best in Gaming <div class='popup' onclick='togglePopup("htne2020")'><i class='fa fa-info-circle'></i><span class='popuptext' id='htne2020'>Neurologue: The Game That Plays You - Hack the Northeast 2020 Top 3 Best Gaming Winner</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://devpost.com/software/neurologue' style='text-decoration: none;' target='_blank'>Devpost <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>TOHacks 2020 - DCP Runner Up <div class='popup' onclick='togglePopup("to2020")'><i class='fa fa-info-circle'></i><span class='popuptext' id='to2020'>DialekTech: The all-comprehensive educational video analyzer - TOHacks DCP Runner Up</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://devpost.com/software/note-js-wcmbkh' style='text-decoration: none;' target='_blank'>Devpost <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Practice Bot <div class='popup' onclick='togglePopup("pbwiki")'><i class='fa fa-info-circle'></i><span class='popuptext' id='pbwiki'>Wiki for Practice Bot: The all-competitive-programming-purpose Discord bot! Discord to DMOJ/Codeforces/AtCoder/WCIPEG/CSES/Szkopuł integration</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://github.com/kevinjycui/Practice-Bot/wiki' style='text-decoration: none;' target='_blank'>Wiki <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>ICS4U1</td>
+                        <td>2019-2020</td>
+                        <td><a href='https://github.com/kevinjycui/ICS4U1' style='text-decoration: none;' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2019 <div class='popup' onclick='togglePopup("aoc2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2019'>Solutions for Advent of Code Programming Contest 2019 Advent Calendar</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://github.com/kevinjycui/advent-of-code-2019' style='text-decoration: none;' target='_blank'>Solutions <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr style='background-color: #ffdf00'>
+                        <td>PicoCTF 2019 - 29th Canadian <div class='popup' onclick='togglePopup("pico2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='pico2019'>Solutions and writeups for the picoCTF Cybersecurity Competition held by Carnegie Mellon University</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://github.com/kevinjycui/picoCTF-2019-writeup' style='text-decoration: none;' target='_blank'>Solutions <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr style='background-color: #ffdf00'>
+                        <td>PennApps XX 2019 - Top 30 <div class='popup' onclick='togglePopup("penn2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='penn2019'>HandSpoken: handwritten image to custom font conversion - PennApps Top 30 Best, hosted by University of Pennsylvania</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://devpost.com/software/hand-spoken' style='text-decoration: none;' target='_blank'>Devpost <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>RBC VoiceHacks Rasa-Mycroft</td>
+                        <td>2019</td>
+                        <td><a href='https://mycroft.ai/blog/connecting-rasa-to-mycroft-a-guide/' style='text-decoration: none;' target='_blank'>Blog <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>ICS3U1</td>
+                        <td>2018-2019</td>
+                        <td><a href='https://github.com/kevinjycui/ICS3U1' style='text-decoration: none;' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>EEG Cursor Controller w/ Emotiv</td>
+                        <td>2018</td>
+                        <td><a href='https://medium.com/@kevinjycui/of-mice-and-mind-creating-a-simple-eeg-cursor-control-application-7fcdad703d2f' target='_blank'>Blog <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Competitive Programming <div class='popup' onclick='togglePopup("cp-repo")'><i class='fa fa-info-circle'></i><span class='popuptext' id='cp-repo'>All my AC solutions to competitive programming problems (DMOJ, WCIPEG, Codeforces, etc.), 2017-2020</span></div></td>
+                        <td>2017-2020</td>
+                        <td><a href='https://github.com/kevinjycui/Competitive-Programming' style='text-decoration: none;' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                  </table>
                </div>
                <br>
             </div>
@@ -143,9 +224,9 @@ This site is developed, designed, and maintained by Kevin Cui. Last updated June
             <br><br>
             <a class='legal email' href='mailto:kevinjycui@protonmail.com' target='_blank'>kevinjycui@protonmail.com</a>
             <br><br>
-            <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><img src='src/img/media-icons/github.png' class='media-icon'></img></a>
-            <a href='https://www.linkedin.com/in/kevin-jy-cui/' title='LinkedIn' target='_blank'><img src='src/img/media-icons/linkedin.svg' class='media-icon'></img></a>
-            <a class='other-social' href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><img src='src/img/media-icons/youtube.png' class='media-icon'></img></a>
+            <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><i class='fa fa-github' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://www.linkedin.com/in/kevinjycui/' title='LinkedIn' target='_blank'><i class='fa fa-linkedin' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a class='other-social' href='https://www.youtube.com/channel/UCRb6Mw3fJ6OFzp-cB9X29aA' title='YouTube' target='_blank'><i class='fa fa-youtube-play' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
             <a class='other-social' href='https://devpost.com/kevinjycui' title='Devpost' target='_blank'><img src='src/img/media-icons/devpost.png' class='media-icon'></img></a>
             <a class='other-social' href='https://keybase.io/manchuriox' title='Keybase' target='_blank'><img src='src/img/media-icons/keybase.png' class='media-icon'></img></a>
             <a class='other-social' href='https://dmoj.ca/user/ManchurioX' title='DMOJ' target='_blank'><img src='src/img/media-icons/dmoj.png' class='media-icon'></img></a>

@@ -37,7 +37,7 @@ html {
 .title {
 	float: left;
 	text-align: center;
-	background-color: #F7F8FA;
+	/* background-color: #F7F8FA; */
 	max-width: 5%;
 	height: 100%;
 	padding: 2% 2% 100% 2%;
@@ -56,12 +56,12 @@ html {
 	padding: 0;
 }
 
-.fixedElement {
+.fixed-elements {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 5%;
-	box-shadow: 0px 10px 20px #27272c;
+	/* box-shadow: 0px 10px 20px #27272c; */
 }
 
 .button {
@@ -139,6 +139,30 @@ html {
 	}
 }
 
+  #resource-table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #resource-table td, #resource-table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #resource-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #resource-table tr:nth-child(odd){background-color: white;}
+  
+  #resource-table tr:hover {background-color: #ddd;}
+  
+  #resource-table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #444444;
+	color: white;
+  }
+
 .descrip {
 	font-size: 3.2rem;
 	/* float: left; */
@@ -181,7 +205,7 @@ html {
 
 .download-descrip {
 	font-size: 1.2rem;
-	padding: 0% 15% 5% 15%;
+	padding: 0% 15% 2% 15%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 }
@@ -194,7 +218,6 @@ html {
 	width: 60%;
 	height: auto;
 	margin-left: 0%;
-	margin-top: 0%;
 	margin-top: 50px;
 }
 
@@ -210,11 +233,11 @@ html {
 }
 
 .overlay {
-	opacity: 0;
+	margin-top: 8px;
 }
 
-.container:hover .overlay {
-	opacity: 1;
+.container {
+	margin: 20px 0 30px 0
 }
 
 .container:hover .smallIcon {
@@ -365,13 +388,24 @@ to {width: 14%;}
 	opacity: 1;
 }
 
-.side {
-	float: left;
+.side-right {
+	float: right;
 	max-width: 20%;
 	width: auto;
 	margin: 4%;
-	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 0%;
+	font-size: 36px;
+}
+
+@media screen and (max-width: 1080px) {
+	.side-right {
+		float: none;
+		margin: auto;
+		max-width: 100%;
+		text-align: center;
+		font-size: 24px;
+	}
 }
 
 .portrait {
@@ -526,9 +560,13 @@ to {width: 8%;}
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-}
-
-.popup .popuptext {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .popup .popuptext {
 	visibility: hidden;
 	width: 160px;
 	background-color: #555;
@@ -537,12 +575,13 @@ to {width: 8%;}
 	border-radius: 6px;
 	padding: 8px 0;
 	position: absolute;
+	z-index: 1;
 	bottom: 125%;
 	left: 50%;
 	margin-left: -80px;
-}
-
-.popup .popuptext::after {
+  }
+  
+  .popup .popuptext::after {
 	content: "";
 	position: absolute;
 	top: 100%;
@@ -551,35 +590,23 @@ to {width: 8%;}
 	border-width: 5px;
 	border-style: solid;
 	border-color: #555 transparent transparent transparent;
-}
-
-.popup .show {
+  }
+  
+  .popup .show {
 	visibility: visible;
 	-webkit-animation: fadeIn 1s;
-	animation: fadeIn 1s
-}
-
-
-/* Add animation (fade in the popup) */
-
-@-webkit-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
+	animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
 .res-segment {
 	padding: 0 10% 0 10%;
 }
@@ -610,8 +637,8 @@ to {width: 8%;}
 
 .video {
 	display: inline-block;
-	width: 90%;
-	min-height: 500px;
+	min-width: 90%;
+	min-height: 800px;
 	margin: 5%;
 }
 
@@ -837,22 +864,9 @@ to {width: 8%;}
 .media-icon {
 	display: inline-block;
 	vertical-align: middle;
-	max-width: 3%;
+	width: 36px;
 	margin: 1%;
-	border-style: solid;
-	border-color: #202020;
-	border-radius: 50%;
-}
-
-.media-icon:hover {
-	border-color: #bebebe;
-}
-
-.media-icon-light {
-	display: inline-block;
-	vertical-align: middle;
-	max-width: 5%;
-	margin: 1%;
+	margin-top: 0;
 	border-radius: 50%;
 }
 
@@ -1105,14 +1119,7 @@ to {width: 8%;}
 		margin-bottom: 7%;
 		padding: auto;
 	}
-	.foot {
-		float: right;
-		width: 90%;
-	}
 	.navIcon {
-		display: none;
-	}
-	.overlay {
 		display: none;
 	}
 	.smallIcon {
@@ -1122,7 +1129,7 @@ to {width: 8%;}
 	.button {
 		margin-bottom: 5%;
 	}
-	.overlay {
+	.fixed-elements {
 		display: none;
 	}
 	@keyframes slideIn {
