@@ -1,4 +1,4 @@
-const textModules = document.getElementsByClassName('textModule');
+const textModules = document.getElementsByClassName('text-module');
 const textLines = document.getElementsByClassName('subdescrip');
 
 function setModule(setting) {
@@ -8,13 +8,15 @@ function setModule(setting) {
     }
 }
 
+textModules[2].style.borderStyle = 'solid';
 textModules[2].style.borderColor = 'black';
 setModule('default');
 
 for (let index=0; index<textModules.length; index++) {
     let mod = textModules[index];
     mod.addEventListener('click', () => {
-        for (other of textModules) other.style.borderColor = '#e3e3e4';
+        for (other of textModules) other.style.borderStyle = 'hidden';
+        mod.style.borderStyle = 'solid';
         mod.style.borderColor = 'black';
         setModule(mod.id.split('-')[0]);
     });

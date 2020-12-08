@@ -1,0 +1,120 @@
+@media screen and (max-width: 1080px) {
+	html {
+		background: #f7f8fa;
+	}
+	.main {
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+        animation: none;
+    }
+	.descrip {
+		border-radius: 0;
+    }
+    .mainhead {
+        border-radius: 0;
+    }
+	.side-right {
+		float: none;
+		margin: auto;
+		max-width: 100%;
+		text-align: center;
+		font-size: 24px;
+    }
+    .foot {
+		margin: 0;
+	}
+	.smlogo {
+		height: 12%;
+		width: 12%;
+	}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.descrip {
+		font-size: 165%;
+		/* float: left; */
+	}
+	.indescrip {
+		font-size: 1.2rem;
+	}
+	h2 {
+		margin: auto;
+		margin-left: 1%;
+	}
+	.media-icon {
+		max-width: 10%;
+		margin: 5%;
+	}
+	.media-icon-light {
+		max-width: 10%;
+		margin: 5%;
+	}
+	.subdescrip {
+		font-size: 95%;
+		padding: 0% 15% 5% 15%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+		display: none;
+	}
+	.download-descrip {
+		font-size: 95%;
+		padding: 0% 15% 5% 15%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+	.side {
+		float: none;
+		display: block;
+		max-width: 65%;
+		margin: 4%;
+		padding: 0%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 7%;
+		padding: auto;
+	}
+	.portrait {
+		display: block;
+		max-width: 65%;
+		margin: 4%;
+		padding: 0%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 7%;
+		padding: auto;
+	}
+	.navIcon {
+		display: none;
+	}
+	.smallIcon {
+		width: 20%;
+		margin-top: 15%;
+	}
+	.button {
+		margin-bottom: 5%;
+	}
+	.fixed-elements {
+		display: none;
+	}
+
+}
