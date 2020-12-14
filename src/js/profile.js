@@ -9,7 +9,6 @@ function setModule(setting) {
 }
 
 textModules[2].style.borderStyle = 'solid';
-textModules[2].style.borderColor = 'black';
 setModule('default');
 
 for (let index=0; index<textModules.length; index++) {
@@ -17,7 +16,6 @@ for (let index=0; index<textModules.length; index++) {
     mod.addEventListener('click', () => {
         for (other of textModules) other.style.borderStyle = 'hidden';
         mod.style.borderStyle = 'solid';
-        mod.style.borderColor = 'black';
         setModule(mod.id.split('-')[0]);
     });
     mod.addEventListener('mouseover', () => mod.style.cursor = 'pointer');
