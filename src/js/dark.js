@@ -33,3 +33,7 @@ function toggleDark() {
     }
 
 }
+
+var hour = new Date().getHours();
+if (hour <= 5 || hour >= 20)
+    toggleDark();

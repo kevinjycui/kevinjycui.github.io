@@ -1,4 +1,4 @@
-var zh_CN = {
+var zh = {
     "Kevin Cui": "崔骏扬",
     "Software Developer / Student": "软件工程师 / 学生",
     "About Me": "介绍",
@@ -20,7 +20,13 @@ var zh_CN = {
     "Year": "年",
     "PDF Download": "下载PDF",
     "LaTeX Download": "下载LaTeX",
-    "Email": "电子邮件"
+    "Email": "电子邮件",
+    "Top 3 Best in Gaming": "电子游戏部第3名",
+    "29th Canadian": "加拿大排名第29名",
+    "Competitive Programming": "算法竞赛",
+    "Top 30": "前30名",
+    "DCP Runner Up": "DCP亚军",
+    "": ""
 }
 
 function getUrlVars() {
@@ -34,19 +40,19 @@ function getUrlVars() {
 function localise() {
     var t = document.getElementsByClassName("t");
     for (var i=0; i<t.length; i++) {
-        if (t[i].textContent in zh_CN)
-            t[i].textContent = zh_CN[t[i].textContent];
-        else if (t[i].hasAttribute('title') && t[i].getAttribute('title') in zh_CN)
-            t[i].setAttribute('title', zh_CN[t[i].getAttribute('title')])
+        if (t[i].textContent in zh)
+            t[i].textContent = zh[t[i].textContent];
+        else if (t[i].hasAttribute('title') && t[i].getAttribute('title') in zh)
+            t[i].setAttribute('title', zh[t[i].getAttribute('title')])
     }
 }
 
-if (getUrlVars()['lang'] === 'zh_CN') {
-    document.getElementById('en_CA').className += ' show'
-    document.getElementById('zh_CN').className = document.getElementById('zh_CN').className.replace( /(?:^|\s)show(?!\S)/g , '' );
+if (getUrlVars()['lang'] === 'zh') {
+    document.getElementById('en').className += ' show'
+    document.getElementById('zh').className = document.getElementById('zh').className.replace( /(?:^|\s)show(?!\S)/g , '' );
     localise()
 }
 else {
-    document.getElementById('en_CA').className = document.getElementById('en_CA').className.replace( /(?:^|\s)show(?!\S)/g , '' );
-    document.getElementById('zh_CN').className += ' show'
+    document.getElementById('en').className = document.getElementById('en').className.replace( /(?:^|\s)show(?!\S)/g , '' );
+    document.getElementById('zh').className += ' show'
 }
