@@ -1,68 +1,56 @@
 ==================================================================
-https://keybase.io/manchuriox
+https://keybase.io/kevinjycui
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://kevinjycui.github.io
-  * I am manchuriox (https://keybase.io/manchuriox) on keybase.
-  * I have a public key with fingerprint C0E0 8F6D 9101 88FB E59D  DB9B 954D BF44 1726 07FC
+  * I am kevinjycui (https://keybase.io/kevinjycui) on keybase.
+  * I have a public key ASB2JiRdx09BxX0wqMi2H21kwObprzbQLEBesnIYww8zBwo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01015f1cac7d378a12a1159d538c3e7a37ce8da537174482eb0579dbf4994c42d6480a",
-      "fingerprint": "c0e08f6d910188fbe59ddb9b954dbf44172607fc",
+      "eldest_kid": "01207626245dc74f41c57d30a8c8b61f6d64c0e6e9af36d02c405eb27218c30f33070a",
       "host": "keybase.io",
-      "key_id": "954dbf44172607fc",
-      "kid": "01015f1cac7d378a12a1159d538c3e7a37ce8da537174482eb0579dbf4994c42d6480a",
-      "uid": "d2077d59a33f22f3817dee4f9f34c419",
-      "username": "manchuriox"
+      "kid": "01207626245dc74f41c57d30a8c8b61f6d64c0e6e9af36d02c405eb27218c30f33070a",
+      "uid": "d599269c23aef369831a16cb25a2c319",
+      "username": "kevinjycui"
+    },
+    "merkle_root": {
+      "ctime": 1608749165,
+      "hash": "6c91e6349da7cdb6ac1aedbca9ea5a3e658350a59d677a8f0a9bf5ca263d5d88737a80ff1d8a61e7f3fa9c4f647589b9b2680af967bf978e0cc6c1b3f1c4de3c",
+      "hash_meta": "6ac0308f4a8fc563f694d93158e6961ff6dea5897d51436dc3e3dd8e5421dea1",
+      "seqno": 18488494
     },
     "service": {
+      "entropy": "hhp5N/zGiBkrkoihIfU/UOi7",
       "hostname": "kevinjycui.github.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1590784961,
-  "expire_in": 157680000,
-  "prev": "1202a114798fcf883f2de7a982dfccb5149ef3b234ba47c25fb3003e81ceb676",
-  "seqno": 9,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.2"
+  },
+  "ctime": 1608749191,
+  "expire_in": 504576000,
+  "prev": "ce8f8f11cf988720c92ad6b3e870392d5c120e54a3d59177ffb22548b8c762f9",
+  "seqno": 6,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.1.13
-Comment: https://keybase.io/crypto
-
-yMIzAnicrZJbbAxRGMe39JKtUtFEKHEZ4UG2zdzPzAZbguCBJlSCsplz5szudHVm
-zcyu3dTtQYRQlUUJjVYqQqWp6wMSWksTXSGVpiiREBqXxiWIaCKcqXrz6LycnC//
-/+98/y/f7dEjPflZke0vxZze1v6sTMfJmGdDt91RQ0FTTVL+GiqChy68UcW2E4zo
-KuWnaIZmBI1BCgIqBySFYRWGEWRV4CTEYaBwAGFJVQQOMIDnJRZDWgCyCjVelnnE
-s6rIS7RC+ShNN0LYilq64RAsojEtaaIqE7wkaRATpAplKAu86+UZwIo00BAxhk3b
-dZDmoGLjUt0kNfIIDrX3D/1/7js2hFNZGgBVkBWO01hW4yQGqBjzmqxxRM3IrtDG
-lqFUY6KuVgwUjlm6maC2+ihSj+sIu6N1swxrIjiuG1VJFNNLQ7oTjsE/yaKW6ZjI
-3EgUYceJ2n6X4CSjrmUzhsFhWBDqhkomShxxbNm6aVB+hiiRo7t0kpQGEi+LjI/C
-iahu4aDuKgQgSjQ57j84TpAMS7uD4YEsaUiTJJJOJdORJVbVEIICw8tY4yDL8VDh
-AWIFDXI0zWGJQRiKQKTceJsMk/LLpE0lRJC2HjIUJ2Zhauut9spsT1a+JzdnhLtp
-nnzv2L/7t+Zx3s9xdXum1Ueu8svL5i4p7Ax1vhsYPLo0NWkKPrWtq55uFgqvfSzq
-aUj3TAhVGA29M0qaipvmBr87Y9aWLkhM2lweulB0/sbTzM3Ge51fC/YfYKdWJn7B
-9bOV1PNXjf3HKt7PnLNi3waxL92UutRyvcV3MPvBu7Ly5v73qftm3dmBqgVnMlBY
-1PZw9rf2wJMt3st5VdunfFllv3ydffrNub0d8wfmDXjyFqZrfwSu3LhzOJ30Ll9d
-3VpxvHjxCeHjh/GTd5UJsx6NlMs+7Vs5Mf3iYsabrgt8C3Zldmzb2zJ4qEHZ+XZU
-bWLdp+K+8undy1IF3VvajnCfAwuffYndfVuyexV9+0Pub0uSSxc=
-=D2Jj
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdiYkXcdPQcV9MKjIth9tZMDm6a820CxAXrJyGMMPMwcKp3BheWxvYWTESpcCBsQgzo+PEc+YhyDJKtaz6HA5LVwSDlSj1ZF3/7IlSLjHYvnEII1CEKVM6xpIePLQmaErO8i3peHXwLE8nPemuFdw9z4SAgHCo3NpZ8RAH8YvlnZ0YWsEL6WyRRUU5wXbWf3pdGTtjKDPcNDiBjc66gRvxfGE2FE+8lZdYYiBCJ32dkEDA/6G3CvbVlGnBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAR6AY/cXiwLFjVAzF1x1TpE95PQmucldIgx4C5JQULvo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/manchuriox
+View my publicly-auditable identity here: https://keybase.io/kevinjycui
 
 ==================================================================
