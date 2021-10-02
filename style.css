@@ -72,9 +72,6 @@ html {
 	animation-iteration-count: 1;
 	margin-top: 5%;
 }
-a { color: inherit; } 
-a:hover {color: inherit; }
-a:visited { color: inherit; }
 .nav-icon {
 	color: white;
 	width: 60%;
