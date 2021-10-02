@@ -72,6 +72,9 @@ html {
 	animation-iteration-count: 1;
 	margin-top: 5%;
 }
+a { color: inherit; } 
+a:hover {color: inherit; }
+a:visited { color: inherit; }
 .nav-icon {
 	color: white;
 	width: 60%;
@@ -205,6 +208,12 @@ html {
 	font-size: 2.2rem;
 	padding: 0% 25% 0% 25%;
 	margin-bottom: 0;
+}
+.static-subdescrip {
+	font-size: 1.2rem;
+	padding: 0% 15% 5% 15%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 .subdescrip {
 	font-size: 1.2rem;

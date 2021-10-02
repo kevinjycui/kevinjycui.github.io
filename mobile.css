@@ -67,6 +67,12 @@
 		max-width: 10%;
 		margin: 5%;
 	}
+	.static-subdescrip {
+		font-size: 1.2rem;
+		padding: 0% 15% 5% 15%;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
 	.subdescrip {
 		font-size: 95%;
 		padding: 0% 15% 5% 15%;
