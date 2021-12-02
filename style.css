@@ -127,6 +127,10 @@ html {
 		margin-top: 5%;
    }
 }
+li 
+{
+	margin-bottom: 4%;
+}
 .text-module {
 	margin: 1%;
 	padding: 2%;
