@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Junferno</title>
+      <meta name="description" content="Software developer by day, gamer also by day. At night, I sleep.">
+      <meta name="author" content="Kevin Junyang Cui">
+      <link rel='stylesheet' href='style.css' />
+      <link rel='stylesheet' href='mobile.css' />
+      <link rel='icon' href='src/img/shinji.png'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body id='body'>
+      <nav class='title fixed-elements-right'>
+         <script src='src/js/dark.js'></script>
+         <div class='dark-mode show' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-moon-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Dark Mode</b></div>
+         </div></div>
+         <div class='light-mode' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-sun-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Light Mode</b></div>
+         </div></div>
+      </div>
+      </nav>
+      <div class='view'>
+         <div class='main'>
+            <div class='mainhead'>
+               <div class='descrip' id='titlename'>
+                  <h3 class='bigtitle t'>Junferno</h3>
+                  <div class='side-right'>
+                     <a href='https://www.youtube.com/c/Junferno' title='YouTube' target='_blank'><i class='fa fa-youtube-play top-icon' aria-hidden=true></i></a>
+                     <a href='https://twitter.com/Junferno' title='Twitter' target='_blank'><i class='fa fa-twitter top-icon' aria-hidden=true></i></a>
+                     <a href='https://discord.com/invite/WEykWbjkR2' title='Discord' target='_blank'><i class='fab fa-discord top-icon' aria-hidden=true></i></a>
+                     <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><i class='fa fa-github top-icon' aria-hidden=true></i></a>
+                     <a href='mailto:kevinjycui@protonmail.com' title='Email' target='_blank' class='t'><i class='fa fa-at top-icon' aria-hidden=true></i></a>
+                  </div>
+               </div>
+               <section id='about'>
+                  <div class="lightback">
+                     <br><br>
+                     <div class='res-segment centered'>
+                        <div class='static-subdescrip'>Software developer by day, gamer also by day. At night, I sleep.</div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ueZaTTSFU28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br><br>
+                    </div>
+                    <div class='res-segment'>
+                        <div><a href='corrections.html'>Corrections</a></div>
+                        <div><a href='/'>Personal Site</a> (Business only)</div>
+                    </div>
+                    <br><br>
+                    <div class='centered'><a href='/css-video/example/img/miku/index.html' style='font-size: 8px; text-decoration: none;'>Pure CSS Miku</a></div>
+
+                    <!-- <div class='centered'>
+                        <img src='src/img/animation.gif' style='width: 48px; border-radius: 50%;' />
+                    </div> -->
+                  </div>
+               </section>
+         </div>
+         </div>
+         <footer class='foot' id='contact'>
+            <a class='legal t'>© 2021 Kevin Junyang Cui | Toronto, ON Canada</a>
+            <br><br><br>
+         </footer>
+      </div>
+      <script src='src/js/localise.js'></script>
+      <div class="loader-wrapper" id="load">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += " loaded";
+         }
+      </script>
+   </body>
+</html>
