@@ -61,6 +61,7 @@ html {
 	margin-bottom: 50%;
 	max-width: 90%;
 	border-radius: 50%;
+	border-color: #e3e3e4;
 }
 .main {
 	margin-left: 15%;
@@ -137,9 +138,7 @@ li
 	border-radius: 50%;
 	display: inline-block;
 	vertical-align: middle;
-	border-style: solid;
 	border-radius: 7px;
-	border-style: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -237,6 +236,7 @@ li
 .text {
 	font-size: 1em;
 	text-align: center;
+	text-decoration: none;
 }
 .overlay {
 	margin-top: 8px;

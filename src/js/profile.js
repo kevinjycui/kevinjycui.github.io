@@ -14,8 +14,9 @@ setModule('default');
 for (let index=0; index<textModules.length; index++) {
     let mod = textModules[index];
     mod.addEventListener('click', () => {
-        for (other of textModules) other.style.borderStyle = 'hidden';
+        for (other of textModules) other.style.borderColor = '#F7F8FA';
         mod.style.borderStyle = 'solid';
+        mod.style.borderColor = '#444444'
         setModule(mod.id.split('-')[0]);
     });
     mod.addEventListener('mouseover', () => mod.style.cursor = 'pointer');
