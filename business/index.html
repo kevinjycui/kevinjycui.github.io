@@ -1,0 +1,265 @@
+<!-- Hello, curious soul! Welcome to the source code for my website :)
+I decided to put together this website as a sort of portfolio/profile page where I can compile all my work. I build a lot of things
+(mostly software), and I thought that I should have somewhere to showcase all of it. Stay tuned!
+This site is developed, designed, and maintained by Kevin Cui. Last updated Dec 8, 2020 -->
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Kevin Cui</title>
+      <meta name="description" content="I am Kevin, a software developer. I decided to put together this website as a sort of portfolio/profile page where I can compile all my work.">
+      <meta name="keywords" content="Kevin, Cui, Software, Computer Science, Developer, Java, Python, Student, High School, Software Developer, Software Engineer, Back-end, Front-end, Full-stack">
+      <meta name="author" content="Kevin Junyang Cui">
+      <link rel='stylesheet' href='../style.css' />
+      <link rel='stylesheet' href='../mobile.css' />
+      <link rel='icon' href='../src/img/plane.JPG'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body id='body'>
+      <nav class='title fixed-elements'>
+         <div class='container'>
+            <a href='#' ><i class='fa fa-user fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>About Me</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#resume'><i class='fa fa-file-text fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resumé</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#portfolio'><i class='fa fa-code-fork fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Portfolio</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#resources'><i class='fa fa-bookmark fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resources</b></div>
+            </div></a>
+         </div>
+      </nav>
+      <nav class='title fixed-elements-right'>
+         <script src='../src/js/dark.js'></script>
+         <div class='dark-mode show' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-moon-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Dark Mode</b></div>
+         </div></div>
+         <div class='light-mode' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-sun-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Light Mode</b></div>
+         </div></div>
+      </div>
+      </nav>
+      <div class='view'>
+         <div class='main'>
+            <div class='mainhead'>
+               <div class='descrip' id='titlename'>
+                  <h3 class='bigtitle t'>Kevin Cui</h3>
+                  <div class='side-right'>
+                     <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><i class='fa fa-github top-icon' aria-hidden=true></i></a>
+                     <a href='https://www.linkedin.com/in/kevinjycui/' title='LinkedIn' target='_blank'><i class='fa fa-linkedin top-icon' aria-hidden=true></i></a>
+                     <!-- <a href='https://www.youtube.com/c/Junferno' title='YouTube' target='_blank'><i class='fa fa-youtube-play top-icon' aria-hidden=true></i></a>
+                     <a href='https://twitter.com/Junferno' title='Twitter' target='_blank'><i class='fa fa-twitter top-icon' aria-hidden=true></i></a> -->
+                     <a href='mailto:kevinjycui@protonmail.com' title='Email' target='_blank' class='t'><i class='fa fa-at top-icon' aria-hidden=true></i></a>
+                  </div>
+               </div>
+               <section id='about'>
+                  <div class="lightback">
+                     <h2 class='indescrip t'>Software Developer / Student</h2>
+                     <br><br>
+                     <!-- <div class='centered'>
+                        <img class='portrait' src='../src/img/Kevin_Cui_headshot.jpg'></img>
+                     </div> -->
+                     <div class='res-segment centered'>
+                        <div id='tldr-button' class='text-module t'>TL;DR</div>
+                        <div id='less-button' class='text-module t'>Less</div>
+                        <div id='default-button' class='text-module t'>Default</div>
+                        <div id='more-button' class='text-module t'>More</div>
+                     </div>
+                     <br><br>
+                     <div class=''></div>
+                     <div id='tldr' class='subdescrip'>Hi! I'm Kevin!</div>
+                     <div id='tldr' class='subdescrip'>I'm a B.Sc. Computer Science candidate @ McGill University who &lt;3 building new things!</div>
+                     <div id='tldr' class='subdescrip'>Interned at RBC Royal Bank as an Innovation Developer, held several awards at various hackathons and contests, excelling in my studies with a CGPA of 4.0, and am always looking for new challenges: whether it's more hackathons and contests, making personal projects, or contributing to open-source! :D</div>
+                     <div id='less' class='subdescrip'>Heya! I am Kevin, a software developer and B.Sc. Computer Science candidate at McGill University.</div>
+                     <div id='less' class='subdescrip'>As a leader and developer in many projects, I lead by example in being persistent and approaching opportunities with unique perspectives.</div>
+                     <div id='less' class='subdescrip'>I interned as an Innovation Developer Intern at the RBC Royal Bank of Canada, where I held responsiblities in developing full-stack and delivering production-level internal applications. Academically, I am committed to my education and excel in my studies with a CGPA of 4.0.</div>
+                     <div id='less' class='subdescrip'>In addition to school and work, I constantly seek opportunities to expand my knowledge. I have attended numerous hackathons and contests and achieved various awards in cybersecurity, web development, application development, game development, and more. I maintain a modest following online on GitHub and YouTube for videos on programming/technology/video games. I developed a Discord utility bot to help competitive programmers which reached over 500 servers. I also frequently contribute to open-source.</div>
+                     <div id='default' class='subdescrip'>Hello! I am Kevin, a software developer and B.Sc. Computer Science candidate at McGill University. Online, I am often known as <a href='../'>Junferno</a>.</div>
+                     <div id='default' class='subdescrip'>As a leader and developer in many projects, I lead by example in being persistent and approaching opportunities with unique perspectives. I like to be reliable and enjoy working with new and unfamiliar technologies.</div>
+                     <div id='default' class='subdescrip'>I interned as an Innovation Developer Intern at the RBC Royal Bank of Canada, where I held responsiblities in developing full-stack and delivering production-level internal applications. I developed solutions, acted as a leader in my team through the Agile workflow, conducted user testing, moderated new releases, and presented new features to senior leaders. Academically, I am committed to my education and excel in my studies with a CGPA of 4.0. I enjoy taking courses such as Computer Science, Software Systems, Computer Systems, and Software Design, though I also spend time outside of class to attend clubs and events such as hackathons.</div>
+                     <div id='default' class='subdescrip'>In addition to school and work, I constantly seek opportunities to expand my knowledge. I have attended numerous hackathons and contests and achieved various awards in cybersecurity, web development, application development, game development, and more. I maintain a modest following online on GitHub and YouTube for videos on programming/technology/video games. I developed a Discord utility bot to help competitive programmers which reached over 500 servers. I also frequently contribute to open-source.</div>
+                     <div id='default' class='subdescrip'>Outside of software developing, I love skateboarding, digital art, and learning languages.</div>
+                     <div id='more' class='subdescrip'>Hello there! I am Kevin, a software developer and B.Sc. Computer Science candidate at McGill University. Online, I am often known as <a href='../'>Junferno</a>.</div>
+                     <div id='more' class='subdescrip'>As a leader and developer in many projects, I lead by example in being persistent and approaching opportunities with unique perspectives. I like to be reliable and enjoy working with new and unfamiliar technologies.</div>
+                     <div id='more' class='subdescrip'>I interned as an Innovation Developer Intern at the RBC Royal Bank of Canada, where I held responsiblities in developing full-stack and delivering production-level internal applications. I developed solutions, acted as a leader in my team through the Agile workflow, conducted user testing, moderated new releases, and presented new features to senior leaders. Academically, I am committed to my education and excel in my studies with a CGPA of 4.0. I enjoy taking courses such as Computer Science, Software Systems, Computer Systems, and Software Design, though I also spend time outside of class to attend clubs and events such as hackathons.</div>
+                     <div id='more' class='subdescrip'>In addition to school and work, I constantly seek opportunities to expand my knowledge.</div>
+                     <div id='more' class='subdescrip'>I have attended numerous hackathons and contests and achieved various awards in cybersecurity, web development, application development, game development, and more. In 2019, I placed within the Top 30 at PennApps, a hackathon hosted by the University of Pennsylvania. I also placed within the top 3% globally at PicoCTF, a capture-the-flag format cybersecurity contest hosted by Carnegie Mellon University.</div>
+                     <div id='more' class='subdescrip'>I maintain a modest following online on GitHub and YouTube for videos on topics ranging from programming to technology to the <b>Donkey Kong Bongo game controllers for the Nintendo GameCube</b>, usually focusing on a project or a subject I find interesting. Search up "Junferno" or "bad apple played on" and you'll probably find me. One of my projects is <a href='https://en.wikipedia.org/w/index.php?title=Bad_Apple!!&oldid=1056322448#cite_note-28'>cited here on Wikipedia</a>. I am apparently somewhat well-known amongst the Desmos Graphing Calculator community.</div>
+                     <div id='more' class='subdescrip'>I developed a Discord utility bot to help competitive programmers. The bot integrates several online judges into Discord, including capabilities such as suggested problems and contest notifications. It reached over 500 Discord competitive programming servers before a library it depended on decided to stop existing.</div>
+                     <div id='more' class='subdescrip'>I also frequently contribute to open-source. One project I have recently contributed to is DMOJ, a Canadian modern online judge website that hosts problems and contests for competitive programmers.</div>
+                     <div id='more' class='subdescrip'>Outside of software developing, I love skateboarding, digital art, and learning languages. I find it comforting to have hobbies outside of computer science, as it helps me focus on the bigger picture and is also pretty rad yo (I can't do tricks or anything yet but I'll update this page when I can) (that was referring to the skateboarding part).</div>
+                     <br><br>
+                     <script src='../src/js/profile.js'></script>
+                  </div>
+               </section>
+               <section id='resume'>
+                  <div class='lightback'>
+                     <h2 class='indescrip t'>Resumé</h2>
+                     <embed class="pdf" src="../src/Kevin_Cui_Resume.pdf" />
+                     <div class='res-segment centered'>
+                        <div class='download-descrip centered t'>Download</div>
+                        <a id="file" target="_blank" href="../src/Kevin_Cui_Resume.pdf" download="Kevin_Cui_Resume" target="_blank" title="My Resume (PDF)"><i class='fa fa-file-pdf-o top-icon' aria-hidden=true></i> <span class='t'>PDF Download</span></a>	
+                        <br>
+                        <a id="file" target="_blank" href="../src/Kevin_Cui_Resume.zip" download="Kevin_Cui_Resume" target="_blank" title="My Resume (LaTeX)"><i class='fa fa-file-archive-o top-icon' aria-hidden=true></i> <span class='t'>LaTeX Download</span></a>
+                     </div>
+                     <br>
+                  </div>
+               </section>
+               </section>
+               <section id="portfolio">
+                  <div class="lightback">
+                     <h2 class='indescrip t'>Portfolio</h2>
+                     <br>
+                     <!-- <div style="text-align: center; width: 100%; margin: auto;" class="github-widget centered" data-username="kevinjycui"></div>
+                     <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script> -->
+                     <p class="centered">
+                        <a href="https://github.com/kevinjycui/DesmosBezierRenderer" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=DesmosBezierRenderer" /></a>
+                        <a href="https://github.com/kevinjycui/bad-apple" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=bad-apple" /></a>
+                        <a href="https://github.com/kevinjycui/DKBongoToKey" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=DKBongoToKey" /></a>
+                        <a href="https://github.com/kevinjycui/Practice-Bot" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=Practice-Bot" /></a>
+                        <a href="https://github.com/kevinjycui/CarpAndCabbage" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=CarpAndCabbage" /></a>
+                        <a href="https://github.com/kevinjycui/CortexPlugin" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=CortexPlugin" /></a>
+                        <a href="https://github.com/kevinjycui/advent-of-code-2020" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=advent-of-code-2020" /></a>
+                        <a href="https://github.com/kevinjycui/Neurologue" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=Neurologue" /></a>
+                        <a href="https://github.com/kevinjycui/Competitive-Programming" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=Competitive-Programming" /></a>
+                        <a href="https://github.com/kevinjycui/advent-of-code-2019" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=advent-of-code-2019" /></a>
+                        <a href="https://github.com/kevinjycui/picoCTF-2019-writeup" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=picoCTF-2019-writeup" /></a>
+                        <a href="https://github.com/kevinjycui/hand-spoken-backend" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=hand-spoken-backend" /></a>
+                        <a href="https://github.com/kevinjycui/enferi" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=enferi" /></a>
+                        <a href="https://github.com/kevinjycui/human-anatomy-model" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=kevinjycui&repo=human-anatomy-model" /></a>
+                        <br><br>
+                        <samp>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=python" target="_blank"><img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=Python&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=javascript" target="_blank"><img alt="Java" src="https://img.shields.io/badge/-Javascript-f1e05a?style=flat-square&logo=Javascript&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=c%2B%2B" target="_blank"><img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-f34b7d?style=flat-square&logo=C%2B%2B&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=go" target="_blank"><img alt="Go" src="https://img.shields.io/badge/-Go-375eab?style=flat-square&logo=Go&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=java" target="_blank"><img alt="Java" src="https://img.shields.io/badge/-Java-b07219?style=flat-square&logo=Java&logoColor=white"></a>
+                           <a href="https://github.com/kevinjycui?tab=repositories&language=html" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square&logo=HTML5&logoColor=white"></a>
+                        </samp>
+                     </p>
+
+                  </div>
+                  <br>
+               </section>
+            </div>
+            </section>
+            <section id='resources'>
+            <div class='lightback'>
+               <h2 class='indescrip t'>Resources</h2>
+               <br>
+
+               <script src='../src/js/popup-handler.js'></script>
+                
+               <div id='resource-dir' class='res-segment'>
+                  <table id="resource-table">
+                     <tr>
+                        <th class='t'>Name</th>
+                        <th class='t'>Year</th>
+                        <th>URL</th>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2020 <div class='popup' onclick='togglePopup("aoc2020")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2020'>Solutions for Advent of Code Programming Contest 2020 Advent Calendar</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://github.com/kevinjycui/advent-of-code-2020' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Practice Bot Wiki <div class='popup' onclick='togglePopup("pbwiki")'><i class='fa fa-info-circle'></i><span class='popuptext' id='pbwiki'>Wiki for Practice Bot: The all-competitive-programming-purpose Discord bot! Discord to DMOJ/Codeforces/AtCoder/WCIPEG/CSES/Szkopuł integration</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://github.com/kevinjycui/Practice-Bot/wiki' class='table-url' target='_blank'><span class='t'>Wiki</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>ICS4U1</td>
+                        <td>2019-2020</td>
+                        <td><a href='https://github.com/kevinjycui/ICS4U1' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2019 <div class='popup' onclick='togglePopup("aoc2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2019'>Solutions for Advent of Code Programming Contest 2019 Advent Calendar</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://github.com/kevinjycui/advent-of-code-2019' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr class='gold-row'>
+                        <td>PicoCTF 2019 - <span class='t'>29th Canadian</span> <div class='popup' onclick='togglePopup("pico2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='pico2019'>Solutions and writeups for the picoCTF Cybersecurity Competition held by Carnegie Mellon University</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://github.com/kevinjycui/picoCTF-2019-writeup' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>RBC VoiceHacks Rasa-Mycroft</td>
+                        <td>2019</td>
+                        <td><a href='https://mycroft.ai/blog/connecting-rasa-to-mycroft-a-guide/' class='table-url' target='_blank'><span class='t'>Blog</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>EEG Cursor Controller w/ Emotiv</td>
+                        <td>2019</td>
+                        <td><a href='https://medium.com/@kevinjycui/of-mice-and-mind-creating-a-simple-eeg-cursor-control-application-7fcdad703d2f' class='table-url' target='_blank'><span class='t'>Blog</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>ICS3U1</td>
+                        <td>2018-2019</td>
+                        <td><a href='https://github.com/kevinjycui/ICS3U1' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td><span class='t'>Competitive Programming</span> <div class='popup' onclick='togglePopup("cp-repo")'><i class='fa fa-info-circle'></i><span class='popuptext' id='cp-repo'>All my AC solutions to competitive programming problems (DMOJ, WCIPEG, Codeforces, etc.), 2017-2020</span></div></td>
+                        <td>2017-2020</td>
+                        <td><a href='https://github.com/kevinjycui/Competitive-Programming' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                  </table>
+               </div>
+               <br>
+            </div>
+            </section>
+         </div>
+         <footer class='foot' id='contact'>
+            <a class='legal t'>© 2022 Kevin Junyang Cui | Toronto, ON Canada</a>
+            <br><br>
+            <a class='legal email' href='mailto:kevinjycui@protonmail.com' target='_blank'>kevinjycui@protonmail.com</a>
+            <br><br>
+            <a href='https://github.com/kevinjycui' title='GitHub' target='_blank'><i class='fa fa-github' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://www.linkedin.com/in/kevinjycui/' title='LinkedIn' target='_blank'><i class='fa fa-linkedin' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://www.youtube.com/c/Junferno' title='YouTube' target='_blank'><i class='fa fa-youtube-play' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://twitter.com/Junferno' title='Twitter' target='_blank'><i class='fa fa-twitter' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a class='other-social' href='https://devpost.com/kevinjycui' title='Devpost' target='_blank'><img src='../src/img/media-icons/devpost.png' class='media-icon'></img></a>
+            <a class='other-social' href='https://keybase.io/kevinjycui' title='Keybase' target='_blank'><img src='../src/img/media-icons/keybase.png' class='media-icon'></img></a>
+            <a class='other-social' href='https://dmoj.ca/user/ManchurioX' title='DMOJ' target='_blank'><img src='../src/img/media-icons/dmoj.png' class='media-icon'></img></a>
+            <!-- <a class='other-social' href='https://medium.com/@kevinjycui' title='Medium' target='_blank'><img src='../src/img/media-icons/medium.png' class='media-icon'></img></a> -->
+            <a class='other-social' href='https://discord.com/users/492435232071483392' title='Discord' target='_blank'><img src='../src/img/media-icons/discord.png' class='media-icon'></img></a>
+            <!-- <a class='other-social' href='https://musescore.com/vinferno' title='Musescore' target='_blank'><img src='../src/img/media-icons/musescore.png' class='media-icon'></img></a> -->
+            <!-- <a class='other-social' href='https://www.artstation.com/manchuriox' title='ArtStation' target='_blank'><img src='../src/img/media-icons/artstation.jpg' class='media-icon'></img></a> -->
+            <!-- <a class='other-social' href='https://www.duolingo.com/profile/ManchurioX' title='Duolingo' target='_blank'><img src='../src/img/duolingo.png' class='media-icon'></img></a> -->
+            <br>
+            <a id='more-socials' class='legal email'>More contacts</a>
+            <a id='zh' href='?lang=zh' class='legal email locale show'>中文</a>
+            <a id='en' href='?lang=en' class='legal email locale'>English</a>
+            <script src='../src/js/socials.js'></script>
+            <br><br><br>
+         </footer>
+      </div>
+      <script src='../src/js/localise.js'></script>
+      <div class="loader-wrapper" id="load">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += " loaded";
+         }
+      </script>
+   </body>
+</html>
