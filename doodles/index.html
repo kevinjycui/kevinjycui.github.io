@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Junferno - Doodles</title>
+      <meta name="description" content="Corrections and clarifications for content on the Junferno YouTube channel">
+      <meta name="author" content="Kevin Junyang Cui">
+      <link rel='stylesheet' href='../style.css' />
+      <link rel='stylesheet' href='../mobile.css' />
+      <link rel='icon' href='../src/img/shinji.png'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body id='body'>
+      <nav class='title fixed-elements'>
+      </nav>
+      <nav class='title fixed-elements-right'>
+         <script src='../src/js/dark.js'></script>
+         <div class='dark-mode show' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-moon-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Dark Mode</b></div>
+         </div></div>
+         <div class='light-mode' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-sun-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Light Mode</b></div>
+         </div></div>
+      </div>
+      </nav>
+      <div class='view'>
+         <div class='main'>
+            <div class='mainhead'>
+               <section id=''>
+                  <div class="lightback">
+                        <h2 class='indescrip'>Doodles</h2>
+                        <br><br>
+                        <div class='centered'>
+                            <img src='../src/img/shinjmob.png' style='width: 50%;' />
+                            <div class='static-subdescrip'><i>omedetou, mobu</i><br>2022</div>
+                        </div>
+                        <div class='centered'>
+                            <img src='../src/img/shinjmori.png' style='width: 50%;' />
+                            <div class='static-subdescrip'><i>omogelion</i><br>2022</div>
+                        </div>
+                  </div>
+               </section>
+         </div>
+         </div>
+         <footer class='foot' id='contact'>
+            <a class='legal t'>© 2022 Kevin Junyang Cui | Toronto, ON Canada</a>
+            <br><br><br>
+         </footer>
+      </div>
+      <script src='/src/js/localise.js'></script>
+      <div class="loader-wrapper" id="load">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += " loaded";
+         }
+      </script>
+   </body>
+</html>
