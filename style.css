@@ -422,6 +422,25 @@ li
  .darkback a:visited {
 	 color: #C85BFF;
  }
+ .darkback .youtube i {
+	color: red;
+ }
+ .darkback .patreon i {
+	color: #FE5900;
+ }
+ .darkback .twitch i {
+	color: #815FC0;
+ }
+ .darkback .twitter i {
+	color: lightskyblue;
+ }
+ .darkback .tumblr i {
+	color: white;
+ }
+ .darkback .discord i {
+	color: #7289da;
+ }
+
  .darkback .gh-widget-container {
 	color: #DDDAD5;
  }
