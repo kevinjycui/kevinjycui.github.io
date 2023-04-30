@@ -1,1 +1,44 @@
-<meta http-equiv="Refresh" content="0; url='/'" />
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Junferno</title>
+      <meta name="description" content="Software developer by day, gamer also by day. At night, I sleep.">
+      <meta name="author" content="Kevin Junyang Cui">
+      <link rel='stylesheet' href='style.css' />
+      <link rel='stylesheet' href='mobile.css' />
+      <link rel='icon' href='src/img/shinji.png'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body id='body'>
+      <div class='view'>
+         <div class='lightback'>
+            <div>
+               <div class='descrip' id='titlename'>
+                  <h3 class='bigtitle t'>404</h3>
+                  <img style='width: 30%' src='src/img/404.png' style='width: 60%;' />
+                  <div class='indescrip'>Hey!! You're not supposed to be here! (Redirecting...)</div>
+                </div>
+            </div>
+         </div>
+      </div>
+      <script src='src/js/localise.js'></script>
+      <div class="loader-wrapper" id="load">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += " loaded";
+         }
+
+         window.setTimeout(function(){
+            window.location.href = "/";
+         }, 1000);
+      </script>
+   </body>
+</html>
