@@ -21,6 +21,9 @@ html, body {
 html {
 	background: #444444;
 }
+a {
+	color: transparent;
+}
 .title {
 	float: left;
 	text-align: center;
