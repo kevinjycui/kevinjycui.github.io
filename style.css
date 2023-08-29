@@ -79,6 +79,12 @@ html {
 	margin-left: 0%;
 	margin-top: 50px;
 }
+
+a {
+	text-decoration: none;
+}
+
+
 .nav-text {
 	color: white; 
 	text-decoration: none; 
