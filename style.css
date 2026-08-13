@@ -57,7 +57,7 @@ html {
 }
 .darkback .gh-widget-container button,
 html {
-  background: #444;
+  background: #e4c970;
 }
 .title {
   float: left;
@@ -197,7 +197,7 @@ li {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #444;
+  background-color: #e4c970;
   color: #fff;
 }
 .gold-row {
@@ -464,7 +464,7 @@ li {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #444;
+  background-color: #e4c970;
   display: flex;
   justify-content: center;
   align-items: center;
