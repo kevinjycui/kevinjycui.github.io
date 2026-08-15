@@ -206,8 +206,8 @@ li {
 .descrip,
 .mainhead {
   background-color: #f7f8fa;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
 }
 .descrip {
   font-size: 3.2rem;
